@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### Mar 25, 2018
+
+Row-typed fun for building SQLite Queries
+
+<https://qiita.com/kimagure/items/7b86c1a16adb2045b584>
+
 #### Mar 20, 2018
 
 Setting up PureScript in March 2018
