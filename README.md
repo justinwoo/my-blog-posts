@@ -2,6 +2,24 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### Apr 15, 2018
+
+##### Easy Hot-Reloading PureScript with Parcel
+
+<https://qiita.com/kimagure/items/a870d250f75a6822759b>
+
+#### Apr 02, 2018
+
+##### Handling JS Unions with Row Types
+
+<https://qiita.com/kimagure/items/141423771ad1f5a84425>
+
+#### Apr 01, 2018
+
+##### Making a new library and using it in your own Psc-Package set
+
+<https://qiita.com/kimagure/items/c37b228e80318d4158f0>
+
 #### Mar 25, 2018
 
 ##### Row-typed fun for building SQLite Queries
