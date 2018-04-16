@@ -81,8 +81,9 @@ These are my blog posts and the associated URLs. Updated infrequently, newest en
 <https://qiita.com/kimagure/items/43fd7b02db2950f04a1a>
 
 #### Jan 14, 2018
-Short: Type-level Path Params to write from Records with PureScript <<https://qiita.com/kimagure/items/777133d6bbff67e3819d>>
-##### 
+
+##### Short: Type-level Path Params to write from Records with PureScript <https://qiita.com/kimagure/items/777133d6bbff67e3819d>
+
 #### Jan 13, 2018
 
 ##### Type-level Path Params parsed to Records with PureScript
