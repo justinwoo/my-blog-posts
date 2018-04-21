@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### Apr 21, 2018
+
+##### Generics-Rep Sums and Products to List for Fun
+
+<https://qiita.com/kimagure/items/a5e340242f038b0dc748>
+
 #### Apr 17, 2018
 
 ##### Matching on JS Union members with Row Types (Handling JS Unions cont.)
