@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### Apr 27, 2018
+
+##### Type classes and instances are pattern matching for types
+
+<https://qiita.com/kimagure/items/08c59fa21adcd6968ae1>
+
 #### Apr 21, 2018
 
 ##### Generics-Rep Sums and Products to List for Fun
