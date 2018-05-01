@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### May 02, 2018
+
+##### Instance Chains to get nested record label "paths"
+
+<https://qiita.com/kimagure/items/7e313ee68280186d76dc>
+
 #### Apr 27, 2018
 
 ##### Type classes and instances are pattern matching for types
