@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### May 03, 2018
+
+##### Well-typed path params in PureScript 0.12
+
+<https://qiita.com/kimagure/items/3273d20c4c5ad74dbe26>
+
 #### May 02, 2018
 
 ##### Instance Chains to get nested record label "paths"
