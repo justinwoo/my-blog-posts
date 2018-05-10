@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### May 11, 2018
+
+##### Parsing type-level strings to extract types
+
+<https://qiita.com/kimagure/items/6729a5d55ab99bcee8ec>
+
 #### May 03, 2018
 
 ##### Well-typed path params in PureScript 0.12
