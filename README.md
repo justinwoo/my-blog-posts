@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### May 16, 2018
+
+##### Simple Routing based on parsing type-level strings
+
+<https://qiita.com/kimagure/items/5c3f3fcb898e480c56be>
+
 #### May 11, 2018
 
 ##### Parsing type-level strings to extract types
