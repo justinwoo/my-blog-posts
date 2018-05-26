@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### May 27, 2018
+
+##### Fun type-level literal number arithmetic with instance chains
+
+<https://qiita.com/kimagure/items/b19cdbc1807109fb11cb>
+
 #### May 16, 2018
 
 ##### Simple Routing based on parsing type-level strings
