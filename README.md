@@ -2,6 +2,11 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+## TODO
+
+* Jajanmen
+* Shoronpo
+
 #### May 27, 2018
 
 ##### Fun type-level literal number arithmetic with instance chains
