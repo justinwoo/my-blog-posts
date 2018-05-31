@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### May 31, 2018
+
+##### 99(+) posts on Qiita as an English-only poster: Reflections
+
+<https://qiita.com/kimagure/items/1a569987fee84ae26d4f>
+
 #### May 27, 2018
 
 ##### Fun type-level literal number arithmetic with instance chains
