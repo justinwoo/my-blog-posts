@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### June 4, 2018
+
+##### Well-typed parameterized SQLite parameters with PureScript
+
+<https://qiita.com/kimagure/items/4b08e9f0479d5866ec04>
+
 #### May 31, 2018
 
 ##### 99(+) posts on Qiita as an English-only poster: Reflections
