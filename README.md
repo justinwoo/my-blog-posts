@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### June 17, 2018
+
+##### A year of Twitter memes
+
+<https://qiita.com/kimagure/items/4f0bb365965d31e6cd58>
+
 #### June 4, 2018
 
 ##### Well-typed parameterized SQLite parameters with PureScript
