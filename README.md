@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### June 22, 2018
+
+##### Managing Psc-Package sets with Dhall
+
+<https://qiita.com/kimagure/items/c419ba740ac134a837a2>
+
 #### June 17, 2018
 
 ##### A year of Twitter memes
