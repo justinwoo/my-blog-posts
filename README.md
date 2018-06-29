@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>
 
+#### July 02, 2018
+
+##### Implement your own compiler type class in PureScript
+
+<https://qiita.com/kimagure/items/8736fe6a2f25da526368>
+
 #### June 22, 2018
 
 ##### Managing Psc-Package sets with Dhall
