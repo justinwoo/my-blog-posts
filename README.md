@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### July 23, 2018
+
+##### Formatting type-level Strings with row type labels
+
+<https://qiita.com/kimagure/items/c4bc704df3791437c9bb>
+
 #### July 02, 2018
 
 ##### Implement your own compiler type class in PureScript
