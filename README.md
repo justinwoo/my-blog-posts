@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### July 29, 2018
+
+##### User empowerment of FFI in PureScript
+
+<https://qiita.com/kimagure/items/0ce4d9d2792dd110ee45>
+
 #### July 23, 2018
 
 ##### Formatting type-level Strings with row type labels
