@@ -2,37 +2,43 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
-#### July 29, 2018
+#### Aug 06, 2018
+
+##### Converting Generics-Rep to Row Types in PureScript
+
+<https://qiita.com/kimagure/items/1ea18bd6b782d45a48d5>
+
+#### Jul 29, 2018
 
 ##### User empowerment of FFI in PureScript
 
 <https://qiita.com/kimagure/items/0ce4d9d2792dd110ee45>
 
-#### July 23, 2018
+#### Jul 23, 2018
 
 ##### Formatting type-level Strings with row type labels
 
 <https://qiita.com/kimagure/items/c4bc704df3791437c9bb>
 
-#### July 02, 2018
+#### Jul 02, 2018
 
 ##### Implement your own compiler type class in PureScript
 
 <https://qiita.com/kimagure/items/8736fe6a2f25da526368>
 
-#### June 22, 2018
+#### Jun 22, 2018
 
 ##### Managing Psc-Package sets with Dhall
 
 <https://qiita.com/kimagure/items/c419ba740ac134a837a2>
 
-#### June 17, 2018
+#### Jun 17, 2018
 
 ##### A year of Twitter memes
 
 <https://qiita.com/kimagure/items/4f0bb365965d31e6cd58>
 
-#### June 4, 2018
+#### Jun 4, 2018
 
 ##### Well-typed parameterized SQLite parameters with PureScript
 
