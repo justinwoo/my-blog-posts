@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### Aug 13, 2018
+
+##### Expecting Inferred Types (feat. Custom Type Errors)
+
+<https://qiita.com/kimagure/items/00c1ca57d6999904b595>
+
 #### Aug 06, 2018
 
 ##### Converting Generics-Rep to Row Types in PureScript
