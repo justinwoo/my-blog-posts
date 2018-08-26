@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### Aug 26, 2018
+
+##### What I've learned since quitting Elm
+
+<https://qiita.com/kimagure/items/93a42d67a8833f99fe2e>
+
 #### Aug 13, 2018
 
 ##### Expecting Inferred Types (feat. Custom Type Errors)
