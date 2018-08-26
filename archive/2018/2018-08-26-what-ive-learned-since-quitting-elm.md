@@ -149,7 +149,11 @@ I wrote a tutorial for this in the Simple-JSON docs, so you can read more about 
 
 So there are also many other topics I didn't cover here, but I hope this has given you some ideas on what all you could start learning about and using to solve problems you run into.
 
-I really only came to know about PureScript thanks to some efforts by Bodil to publicize it, who I knew from doing some various people associated with RxJS and Cycle.JS. I think even now, very few people who would actually really like to use PureScript know of it, so I'd encourage people to give some small intro talks at local meetups about it.
+I really only came to know about PureScript thanks to some efforts by Bodil to publicize it, who I knew from some various people associated with RxJS and Cycle.JS. I think even now, very few people who would actually really like to use PureScript know of it, so I'd encourage people to give some small intro talks at local meetups about it.
+
+## P.S.
+
+I guess people assume you have to know Haskell to use PureScript, but I started using Haskell after using PureScript for a couple of months. Since then, I've been writing some small amounts of Haskell to help maintain some projects.
 
 ## Links
 
