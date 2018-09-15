@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### Sep 15, 2018
+
+##### Reflecting a record of proxies and keys of row types
+
+<https://qiita.com/kimagure/items/b08175d22f9950ba3dfb>
+
 #### Sep 11, 2018
 
 ##### We don't need Peano Numbers in PureScript
