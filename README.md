@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### 2018 Oct 27
+
+#### Pseudo-dynamically typed errors in PureScript
+
+<https://qiita.com/kimagure/items/71e938ee93e31bd2e79b>
+
 #### 2018 Oct 24
 
 ##### Using PureScript easily with Nix
