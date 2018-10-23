@@ -43,7 +43,7 @@ pkgs.stdenv.mkDerivation rec {
     sha256 = "1wf7n5y8qsa0s2p0nb5q81ck6ajfyp9ijr72bf6j6bhc6pcpgmyc";
   };
 
-  # btw, did i mention fetchurl will magically unzip the tarball for you?
+  # btw, did i mention the build process will magically unzip the tarball for you?
   # check out pkgs/stdenv/generic/setup.sh in nixpkgs for more information:
   # https://github.com/NixOS/nixpkgs/blob/master/pkgs/stdenv/generic/setup.sh
 
