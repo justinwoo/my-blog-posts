@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### Oct 24, 2018
+
+##### Using PureScript easily with Nix
+
+<https://qiita.com/kimagure/items/de2a4ff45dd8fe8be4b1>
+
 #### Oct 18, 2018
 
 ##### Easy Markdown to Beamer with Pandoc and Nix
