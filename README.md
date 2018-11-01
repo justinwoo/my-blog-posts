@@ -10,7 +10,7 @@ These are my blog posts and the associated URLs. Updated infrequently, newest en
 
 #### 2018 Oct 27
 
-#### Pseudo-dynamically typed errors in PureScript
+##### Pseudo-dynamically typed errors in PureScript
 
 <https://qiita.com/kimagure/items/71e938ee93e31bd2e79b>
 
