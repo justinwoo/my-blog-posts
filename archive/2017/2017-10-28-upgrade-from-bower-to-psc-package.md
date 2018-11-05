@@ -1,4 +1,5 @@
-Upgrade from Bower to Psc-Package
+# Upgrade from Bower to Psc-Package
+
 Even though Bower has worked and continues to work for PureScript, most end user applications benefit greatly by having a static set of dependencies installed. This post will go over the relatively simple steps it takes to upgrade an existing project using Bower to use Psc-Package instead.
 
 ## Why not Bower?
@@ -104,3 +105,4 @@ At this point, you probably want to talk to someone, but overall there are only 
 4. Run `psc-package verify your-new-package` to verify that package.
 5. Push the commit in a branch or a tag, whichever you wish.
 6. Start using this from your projects!
+

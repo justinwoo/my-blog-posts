@@ -10,17 +10,17 @@ When working with Psc-Package normally using purescript/package-sets, you'll sta
 
 * Psc-Package is basically a glorified set of shell scripts
 * Only having a packages.json file in the repo you point to from psc-package.json matters
-* packages.json is pretty terrible to edit since it's a giant blob, meaning that every time you rebase your package-sets fork to "update", you get a giant useless diff\
+* packages.json is pretty terrible to edit since it's a giant blob, meaning that every time you rebase your package-sets fork to "update", you get a giant useless diff
 * packages.json isn't checked in any way, it's just your typical dynamically typed hell
 * purescript/package-sets isn't even "official" in any meaningful way -- it's just some community-gathered information
-* you should *absolutely* have your own fork of package-sets to manage package sets for your projects, which is unlike spoon-fed solutions out there
+* you should *absolutely* have your own fork of package-sets to manage package sets for your projects, which is unlike other spoon-fed solutions out there
 
 With all of these negative characteristics, it only makes sense to not use purescript/package-sets, right? We might as well look for a solution that is...
 
-* Can merge multiple sets of packages easily
+* Able merge multiple sets of packages easily
 * Typed
 * Easy to use
-* Can maybe even support a local overrides workflow, for when you need specific overrides that won't be shared with other projects you have
+* Able to maybe even support a local overrides workflow, for when you need specific overrides that won't be shared with other projects you have
 
 Luckily, those goals are fairly easy to target with Dhall.
 
@@ -140,7 +140,7 @@ So not much has changed here and it works as expected.
 
 ## "Local package sets"
 
-In psc-package, there is nothing like "extra-deps" from Stack. Even though it's editing a package set isn't hard, it can be fairly meaningless to have a package set that differs from package sets that you use for your other projects. While there's no real convenient way to work with it with standard purescript/package-sets, this is made easy with Dhall again where you can define a packages.dhall file in your repo and refer to remote sources for `mkPackage` and some existing packages.dhall.
+In psc-package, there is nothing like "extra-deps" from Stack. Even though editing a package set isn't hard, it can be fairly meaningless to have a package set that differs from package sets that you use for your other projects. While there's no real convenient way to work with it with standard purescript/package-sets, this is made easy with Dhall again where you can define a packages.dhall file in your repo and refer to remote sources for `mkPackage` and some existing packages.dhall.
 
 For example:
 
@@ -199,3 +199,4 @@ In the future, it might also be interesting to use my Spacchetti repo or somethi
 
 * Spacchetti <https://github.com/justinwoo/spacchetti>
 * Dhall <https://github.com/dhall-lang/dhall-lang>
+

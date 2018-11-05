@@ -28,7 +28,7 @@ main = do
         = parseURL (SProxy :: SProxy "/hello/{name:String}/{age:Int}")
 ```
 
-Well, this works! But let's dig into why it works.
+Well, this works! But let's dig into how it works.
 
 ## Revisiting ParseURLImpl
 
@@ -232,3 +232,4 @@ Hopefully this has shown you how type-level string parsing in PureScript 0.12 gi
 
 * This library: <https://github.com/justinwoo/purescript-kushiyaki>
 * Csongor's post on well-typed printf in PureScript 0.12: <http://kcsongor.github.io/purescript-safe-printf/>
+

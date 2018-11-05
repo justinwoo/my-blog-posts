@@ -1,4 +1,5 @@
-Polymorphic Proxy fun in PureScript
+# Polymorphic Proxy fun in PureScript
+
 If you've seen any of my codegen posts, you'll know that I use `Proxy` in a bunch of places in order to provide the types for instance resolving, so that I can extract the string name I want to use for my generated code.
 
 ## Normal Proxy Usage
@@ -104,3 +105,4 @@ Hopefully this has shown you that you can always replace any concrete type with 
 Unfortunately this only works if your language has higher kinded types and higher ranked types. Without the former, you can't declare `f a` / `f :: Type -> Type`, and the latter `forall f.` quantification in the type class method.
 
 Haskellers using GHC8 may opt to use Type Applications with Allowed Ambiguous Types to not use proxies altogether, though you will need a solution for extracting types from values.
+

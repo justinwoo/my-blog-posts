@@ -1,4 +1,5 @@
-Writing a simple Etch-Sketch with PureScript
+# Writing a simple Etch-Sketch with PureScript
+
 
 *This post was written for purescript-pux 0.2.x, and 1.0.0 has come out with some major changes. Parts of this post may be very different from what is currently in the library. I've updated some of the sections below, so this should be fairly up-to-date with my repository.*
 
@@ -227,3 +228,4 @@ Let me know on [Twitter](https://twitter.com/jusrin00) if this was at all helpfu
 * purescript-signal https://github.com/bodil/purescript-signal
 * purescript-pux https://github.com/alexmingoia/purescript-pux
 * PureScript by Example https://leanpub.com/purescript/read
+

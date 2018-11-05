@@ -30,7 +30,8 @@ So we see here that we have declared here like the other types that we use the n
 Then we add this to the appropriate submodule classes map our type class data, for what the parameters should be referred to as and the functional dependencies involved in `primSymbolClasses`:
 
 ```hs
-    -- class Contains (pattern :: Symbol) (symbol :: Symbol) (result :: Boolean) | pattern symbol -> result
+    -- class Contains (pattern :: Symbol) (symbol :: Symbol) (result :: Boolean)
+    -- | pattern symbol -> result
     , (primSubName C.moduleSymbol "Contains", makeTypeClassData
         [ ("pattern", Just kindSymbol)
         , ("symbol", Just kindSymbol)
@@ -57,7 +58,9 @@ And now we can define `solveSymbolContains` like how many other functions for so
     solveSymbolContains [arg0, arg1, arg2] = do
       (arg0', arg1', arg2') <- containsSymbol arg0 arg1 arg2
       let args' = [arg0', arg1', arg2']
-      pure [TypeClassDictionaryInScope [] 0 EmptyClassInstance [] C.SymbolContains args' Nothing]
+      pure
+        [TypeClassDictionaryInScope [] 0 EmptyClassInstance []
+           C.SymbolContains args' Nothing]
     solveSymbolContains _ = Nothing
 ```
 
@@ -148,3 +151,4 @@ In my case, I have a bit of a need for this class along with the ability to brea
 ## Links
 
 * PR for `Symbol.BreakOn` https://github.com/purescript/purescript/pull/3383
+

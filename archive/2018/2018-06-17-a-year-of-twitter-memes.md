@@ -4,7 +4,7 @@ A little over a year ago, I made a silly meme to share with some people I know:
 
 [![](https://i.imgur.com/wSU3656.png)](https://twitter.com/jusrin00/status/875238742621028355)
 
-Within hours, my phone was constantly getting notifications from this being liked and retweeted constantly, with the notifications continuing for the next two weeks. And so, my year of being a "FP meme lord" started.
+Within hours, my phone was constantly getting notifications from this being liked and retweeted, with the notifications continuing for the next two weeks. And so, my year of being a "FP meme lord" started.
 
 ## "Inspiration"
 
@@ -31,3 +31,4 @@ Since last year, I've gained an average of 62 followers a month, with a growth o
 I guess there's no real point to this blog post, other than to just go a little bit over why I make these and what I think about what's happened with them. I will probably continue to make memes with similar content, so hopefully nobody expects me to pump out a masterpiece or something.
 
 If this post made you want to read some "real" PureScript blog posts, check out my repository with titles and links to my posts: <https://github.com/justinwoo/my-blog-posts>
+

@@ -1,4 +1,5 @@
-The Tale of Two Tortellini: making record based libraries in PureScript and Haskell
+# The Tale of Two Tortellini: making record based libraries in PureScript and Haskell
+
 Recently, I sat down to write a PureScript library for parsing INI files to nested records as existing approaches used nested string maps, which are one of my least favorite things in the world (see [this](https://twitter.com/jusrin00/status/875238742621028355) meme I made forever ago). While I was able to make the PureScript library with relative ease, and while the Haskell library took more time and effort to make, overall this came out to having just about the same result, though requiring explicit `GHC.Generics`-deriving record data types.
 
 If nothing else, hopefully I can show you that `GHC.Generics` already do most of what you want with minimal or no cost at runtime for the equivalent output to PureScript. Since PureScript has row types and anonymous records, it makes sense that something like `RowToList` exists to facilitate iterating rows, while because Haskell has product data types with meta-selectors for records, it only makes sense to use `GHC.Generics` to construct Generic Representations for those types.
@@ -411,3 +412,4 @@ Thanks!
 * PureScript-Tortellini https://github.com/justinwoo/purescript-tortellini
 * Tortellini https://github.com/justinwoo/tortellini
 * GHC Generics docs https://hackage.haskell.org/package/base-4.9.1.0/docs/GHC-Generics.html
+

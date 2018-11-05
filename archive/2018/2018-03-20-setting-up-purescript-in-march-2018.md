@@ -1,4 +1,5 @@
-Setting up PureScript in March 2018
+# Setting up PureScript in March 2018
+
 People ask me how to set up PureScript often, and while the majority of the people I talk to are already experienced with JS tooling (both in web and node), I've also run into plenty who haven't been exposed to either.
 
 So in order to try to answer hundreds of people at once, I'll write some kind of "opinionated piece" that goes over some normal setup things you'll probably want.
@@ -37,10 +38,12 @@ export PATH="./node_modules/.bin:$PATH"
 
 ## Install PureScript, Pulp, Psc-Package via NPM
 
+**Please do not install Psc-Package via `psc-package`. The package is abandoned and will warn you when you install it, but you will get an older version of Psc-Package that is not supported.**
+
 Unless you really dislike npm, unless you do work on the compiler or psc-package, you will probably not need much else than npm installed programs. So install these globally at first, and then choose whether or not you want to install these locally later:
 
 ```
-npm i -g purescript pulp psc-package
+npm i -g purescript@0.12.0 pulp psc-package-bin-simple
 ```
 
 Check that these work by trying some commands:
@@ -85,3 +88,4 @@ At least, even if you choose not to use PureScript, now you can smugly correct p
 * Psc-Package: https://github.com/purescript/psc-package
 * PureScript by Example: https://leanpub.com/purescript/read
 * Getting Started with PureScript: https://github.com/purescript/documentation/blob/master/guides/Getting-Started.md
+

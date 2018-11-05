@@ -1,4 +1,5 @@
-How to write a simple MarkDown to inline-Styled HTml tool with Haskell
+# How to write a simple MarkDown to inline-Styled HTml tool with Haskell
+
 A while back, I had the problem of wanting to write and publish some posts for my work's blog. I wrote my post in markdown, since it's fairly easy and familiar. I ran into the problem that our CMS, like many others, doesn't support markdown, and I really wanted to have my text formatted easily and have highlighted code blocks. I found out that it supported a limited set of HTML features that would allow me to have highlighting -- inline styling without classnames.
 
 To accomplish this, I originally used a shell script with 5+ different tools installed on my system, but quickly realized this is just too hard to make sure works on any other computer. To that effort, I sat down and started writing a simple program with Haskell to do it.
@@ -189,3 +190,4 @@ Please let me know ([@jusrin00](https://twitter.com/jusrin00)) what you think ab
 * attoparsec: https://hackage.haskell.org/package/attoparsec/
 * tagsoup: https://github.com/ndmitchell/tagsoup
 * pandoc: https://pandoc.org/
+

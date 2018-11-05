@@ -1,4 +1,5 @@
-Make your own Form Library in PureScript
+# Make your own Form Library in PureScript
+
 With a misleading title, this post will actually be mostly about doing type-level programming to make your own generic solutions.
 
 Many "outsiders" and new PureScript users often have the mindset that given almost any problem X, there should be an existing library for it. And I also think this way about most mainstream languages, where writing your own solution to problems almost always comes with an insurmountable mountain of work. But when you have access to more powerful tools than you're normally afforded, why not try experimenting? While most people think of libraries like [Simple-JSON](https://github.com/justinwoo/purescript-simple-json) as opaque objects they can't actually touch, I'd rather that they think of it as a base they can fork and create derivatives from that more concretely solve their own needs.
@@ -183,3 +184,4 @@ If you're relatively new to generic row types and to the RowCons type class, you
 ## Links
 
 * This repo: http://github.com/justinwoo/pretend-generic-form
+

@@ -1,4 +1,5 @@
-Easy PureScript bundling with Parcel
+# Easy PureScript bundling with Parcel
+
 Recently, there's been a lot of buzz about a new bundling tool "that could replace/kill Webpack" called Parcel. Well, put shortly, it already works well enough to replace Webpack for my own uses, and you may find you don't need Webpack to build any PureScript projects anymore either.
 
 I installed Parcel Bundler by using `npm i -D parcel-bundler`. You might choose to install it globally if you want.
@@ -32,3 +33,4 @@ For my own uses, I will continue using Parcel unless I run into situations where
 ## Links
 
 * Parcel https://parceljs.org/
+

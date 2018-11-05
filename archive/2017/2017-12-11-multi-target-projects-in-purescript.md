@@ -1,4 +1,5 @@
-Multi-Target Projects in PureScript
+# Multi-Target Projects in PureScript
+
 For various reasons, people coming to PureScript from other languages might feel the need to create a project structure that includes several separate "subprojects" and the like to separate packages from each other while simultaneously needing to refer to the same resources. In PureScript, you don't need to do this if you use `pulp build -O/--optimize` as written about [in the Pulp docs](https://github.com/purescript-contrib/pulp#optimising-code-size).
 
 Tl;dr: if you use pulp build -O, you can depend on any other modules you have and you will automatically only import parts that you need. The end.
@@ -130,3 +131,4 @@ Hopefully this has shown you that you really don't have to play some kind of gam
 
 * Pulp docs on optimize https://github.com/purescript-contrib/pulp#optimising-code-size
 * My "full-stack" project https://github.com/justinwoo/vidtracker
+

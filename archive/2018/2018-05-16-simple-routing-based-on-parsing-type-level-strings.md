@@ -162,3 +162,4 @@ Hopefully this has shown you that even with the new features in 0.12, we can rea
 
 * this code, as a library: <https://github.com/justinwoo/purescript-hibachi>
 * my previous post, "Parsing type-level strings to extract types": <https://qiita.com/kimagure/items/6729a5d55ab99bcee8ec>
+

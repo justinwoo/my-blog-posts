@@ -1,4 +1,5 @@
-Using Rows and RowToList to model Chart.js spec building
+# Using Rows and RowToList to model Chart.js spec building
+
 Recently, I've been wondering about how I could model building specs for libraries like Chart.js as glorified wrappers around [Record.Builder.insert](https://pursuit.purescript.org/packages/purescript-record/docs/Data.Record.Builder#v:insert), so that I could correctly compose a bunch of insertion operations with the correct constraints. And while this is often solved using typeclasses to provide instances for each chart type that may use a certain property, I saw this as a prime opportunity to use row types instead to use the labels to describe which kinds of charts a function can be applied to.
 
 ## The Chart.js spec
@@ -233,3 +234,4 @@ Also, why define some weird DSL when you can do it with functions, right?
 
 * Repo: https://github.com/justinwoo/purescript-dotorimuk (WIP, please contribute if you are interested!)
 * Typelevel Prelude: https://pursuit.purescript.org/packages/purescript-typelevel-prelude
+

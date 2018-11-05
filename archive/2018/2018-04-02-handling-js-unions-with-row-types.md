@@ -14,11 +14,11 @@ The general approach for working with unions in "gradually typed" environments s
 2. For a given member, allow users to either use a predefined unsafe type guarding function or define their own to discriminate members of the union, passing along a subset of the total union.
 3. Expose various ways to work with these type guards.
 
-Some approaches also seem to allow for named members, where the labels only used in compilation, while many are based on simple nested unions of the types themselves. Well, to make things easier for usage and to leverage existing type classes, row types make a better fit here.
+Some approaches also seem to allow for named members, where the labels are only used in compilation, while many are based on simple nested unions of the types themselves. Well, to make things easier for usage and to leverage existing type classes, row types make a better fit here.
 
 ## Defining our types
 
-So to represent a this union, I define a data type with no constructor (so that I don't incorrectly try to construct it) with a row type parameter for what the members of the union are:
+So to represent this union, I define a data type with no constructor (so that I don't incorrectly try to construct it) with a row type parameter for what the members of the union are:
 
 ```hs
 data JSUnion (members :: # Type)
@@ -135,7 +135,7 @@ countGuard =
     <<< readInt
 ```
 
-Then some tests cases that follow what we expect. First, with `fromMember` type checking as expected:
+Then some test cases that follow what we expect. First, with `fromMember` type checking as expected:
 
 ```hs
     T.test "fromMember" do
@@ -241,3 +241,4 @@ If anything, hopefully this shows you some of the ways you can use row types and
 ## Links
 
 * Repo: https://github.com/justinwoo/purescript-hotteok
+

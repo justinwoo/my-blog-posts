@@ -1,4 +1,5 @@
-OhYes, you can interop with TypeScript using PureScript
+# OhYes, you can interop with TypeScript using PureScript
+
 Recently, I updated my [OhYes](https://github.com/justinwoo/ohyes-demo) library to the latest [Variant](https://github.com/natefaubion/purescript-variant), which then let me interop with union types of interfaces with a static discriminant field. In this post, I'll go over my demo and how the library is implemented.
 
 Just a warning up front: this post is largely just code examples.
@@ -275,3 +276,4 @@ The same ideas in this post are used to implement my [Kancho](https://github.com
 * https://github.com/justinwoo/purescript-ohyes
 * https://github.com/justinwoo/purescript-kancho
 * More links about RowToList: https://www.reddit.com/r/purescript/comments/6mss5o/new_in_purescript_0116_rowtolist/
+

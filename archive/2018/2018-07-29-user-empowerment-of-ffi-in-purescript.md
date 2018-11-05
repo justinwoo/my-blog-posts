@@ -1,6 +1,6 @@
 # User empowerment of FFI in PureScript
 
-When using PureScript, one of the main benefits is being able to use the foreign function interface for directly calling into JavaScript to get the results you need. This has many benefits, such as
+When using PureScript, one of the main features is being able to use the foreign function interface for directly calling into JavaScript to get the results you need. This has many benefits, such as
 
 * Being able to give proper types to a given expression
 * Not being limited by runtime implementations for when certain kinds of operations can be performed, especially concerning synchronous vs asynchronous, privileged callbacks, etc.
@@ -139,9 +139,14 @@ Hopefully this has shown you some of the ways you can work with FFI and convert 
 
 Be sure to visit the links to see more in-depth explanations.
 
+## Extra
+
+Readers also pointed out that I didn't talk about exposing foreign values as `Foreign` from the [PureScript-Foreign](https://github.com/purescript/purescript-foreign) library. This library along with [Simple-JSON](https://github.com/justinwoo/purescript-simple-json) can be quite useful for verifying that some FFI result is what you expect in runtime.
+
 ## Links
 
 * PureScript language FFI documentation <https://github.com/purescript/documentation/blob/master/language/FFI.md>
 * PureScript documentation guide on FFI <https://github.com/purescript/documentation/blob/master/guides/FFI.md>
 * PureScript-Effect uncurried function documentation <https://pursuit.purescript.org/packages/purescript-effect/2.0.0/docs/Effect.Uncurried>
 * PureScript-Aff-Promise documentation <https://pursuit.purescript.org/packages/purescript-aff-promise/2.0.0>
+

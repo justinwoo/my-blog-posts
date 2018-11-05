@@ -1,4 +1,5 @@
-One-line JS FFI with PureScript-FFI-Props
+# One-line JS FFI with PureScript-FFI-Props
+
 While I don't often write FFI, there are often times when I work with modules that are sensible enough that I don't have to deal with dynamic types. In these cases, I don't really need to write so much of the FFI in the JS side and only need to work with well-typed interfaces in PureScript.
 
 To do this, I made a library that allows for declaring that a foreign data type has some members of some rough representational types, which then I can wrap with more sensible PureScript functions and signatures.
@@ -138,3 +139,4 @@ Hopefully this has shown you how you can use this library too if you wish, and h
 
 * This repo: https://github.com/justinwoo/ffi-props-demo-he
 * FFI Props: https://github.com/justinwoo/purescript-ffi-props
+

@@ -1,4 +1,5 @@
-Modified JSON parsing for free with PureScript-Simple-JSON
+# Modified JSON parsing for free with PureScript-Simple-JSON
+
 Last year, I made the Simple-JSON library using the PureScript RowToList feature, which allows you to parse from JSON to any record type alias. However, thanks to how typeclass constraints and type inference work in PureScript, you can parse from an unspecified type, given that you apply "concrete" transformations to a defined record type. These are made possible by two typeclasses provided in [Prim](https://pursuit.purescript.org/builtins/docs/Prim#t:Union), Union and RowCons, and the [PureScript-Record](https://pursuit.purescript.org/packages/purescript-record) library.
 
 In this post I'll go into some of the examples I've made for PureScript-Record that demonstrate how transforming records with both the built-in record update syntax and PureScript-Record operations gives us parsing for free, even for types that don't have instances for the Simple-JSON ReadForeign type class.
@@ -178,3 +179,4 @@ Hopefully this has shown you that using generic record operations is fairly easy
 
 * Simple-JSON: https://github.com/justinwoo/purescript-simple-json
 * PureScript-Record: https://pursuit.purescript.org/packages/purescript-record
+

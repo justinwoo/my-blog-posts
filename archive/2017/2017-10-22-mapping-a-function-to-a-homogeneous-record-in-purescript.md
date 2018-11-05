@@ -1,4 +1,5 @@
-Mapping a function to a homogeneous record in PureScript
+# Mapping a function to a homogeneous record in PureScript
+
 If you're reading this blog post, chances are that you've seen my talk ["RowList Fun with PureScript"](https://www.reddit.com/r/purescript/comments/6xs5f2/rowlist_fun_with_purescript_slides_from_small_fp/), whether that was online, YouTube, ClojuTRE/Small FP Conf, HaskellX Hackathon, etc. While you might want to read the slides from that talk if you haven't seen the talk, it won't really be necessary for what I'll go over here.
 
 I'll try to explain all the important details needed for a relatively new PureScript user to do this themselves. When in doubt, see [PureScript by Example](https://leanpub.com/purescript/read), ask on [#purescript in the FP Slack](https://fpchat-invite.herokuapp.com/), and/or complain on Twitter #purescript
@@ -136,3 +137,4 @@ For Haskell, a lot of these same things can be done quite easily if you use gene
 For Scala, as far as I can tell, you can accomplish a lot of these same things using [shapeless](https://github.com/milessabin/shapeless)
 
 Almost no other commonly used languages have a concept of datatype generics or type-level programming, so you may end up having to write this manually (for each pair of input and output types!), using a StringMap, or generating code for these operations, none of which are quite ideal.
+
