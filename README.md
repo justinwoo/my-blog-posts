@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### 2018 Nov 10
+
+##### Upgrade from Bower to Nix with Psc-Package2Nix
+
+<https://qiita.com/kimagure/items/aec640d0047d08d2ce90>
+
 #### 2018 Nov 03
 
 ##### Nix-ify your Psc-Package dependencies
