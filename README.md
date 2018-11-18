@@ -328,7 +328,7 @@ These are my blog posts and the associated URLs. Updated infrequently, newest en
 
 #### 2017 Nov 17
 
-##### you can interop with TypeScript using PureScript OhYes
+##### OhYes you can interop with TypeScript using PureScript
 
 <https://qiita.com/kimagure/items/4847685d02d4b15a556c>
 
