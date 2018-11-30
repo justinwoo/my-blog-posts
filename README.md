@@ -6,6 +6,8 @@ These are my blog posts and the associated URLs. Updated infrequently, newest en
 
 ##### Advent of Justin 2018
 
+<https://qiita.com/advent-calendar/2018/justin-eigo-corner>
+
 <https://github.com/justinwoo/advent-of-justin-2018>
 
 #### 2018 Nov 10
