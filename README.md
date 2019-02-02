@@ -2,6 +2,12 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### 2019 Feb 02
+
+##### PureScript package management explained
+
+<https://qiita.com/kimagure/items/6a5881b07bc4a3e6ea86>
+
 #### 2019 Jan 13
 
 ##### Consuming Electrona pps in Nix by patching binaries
