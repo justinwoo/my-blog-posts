@@ -18,7 +18,8 @@ main = do
 
 posts :: [Entry]
 posts =
-  [ ( "2019-02-02-purescript-package-management-explained.md", "https://qiita.com/kimagure/items/6a5881b07bc4a3e6ea86.md" )
+  [ ( "2019-02-11-making-a-simple-haskell-cli-without-anything-fancy.md", "https://qiita.com/kimagure/items/9b33a5fa48baf105abe4" )
+  , ( "2019-02-02-purescript-package-management-explained.md", "https://qiita.com/kimagure/items/6a5881b07bc4a3e6ea86.md" )
   , ( "2019-01-13-consuming-electron-apps-in-nix-by-patching-binaries.md", "https://qiita.com/kimagure/items/6e0fd0aad389c1f274c6.md" )
   , ( "2019-01-12-putting-your-own-derivations-in-nix-profile.md", "https://qiita.com/kimagure/items/8b4df59236717e54a2bc.md" )
   , ( "2018-11-10-upgrade-from-bower-to-nix-with-psc-package2nix.md", "https://qiita.com/kimagure/items/aec640d0047d08d2ce90.md" )
