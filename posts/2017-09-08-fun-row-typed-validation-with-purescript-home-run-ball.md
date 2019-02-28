@@ -1,9 +1,3 @@
----
-title: Fun Row-typed Validation with Purescript-Home-Run-Ball
-tags: purescript
-author: kimagure
-slide: false
----
 A [while ago](http://qiita.com/kimagure/items/5c248844ab28c8c91b16), I talked about using row types to store validations performed on a string, but I was left feeling like the solution I came up with then wasn't quite there yet.
 
 Recently, I gave a [talk about RowLists](https://www.reddit.com/r/purescript/comments/6xs5f2/rowlist_fun_with_purescript_slides_from_small_fp/) at [Small FP Conf](http://clojutre.org/2017/) and was determined to use RowLists to improve on my previous encodings, which gave rise to [Home-Run-Ball](https://github.com/justinwoo/purescript-home-run-ball).
@@ -179,4 +173,3 @@ main = -- ...
         checkedNumber = checkRules intRules 4
       isValid checkedNumber `shouldEqual` true
 ```
-

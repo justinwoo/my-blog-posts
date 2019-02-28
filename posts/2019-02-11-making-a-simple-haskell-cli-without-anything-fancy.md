@@ -1,10 +1,3 @@
----
-title: Making a simple Haskell CLI without anything fancy
-tags: haskell
-author: kimagure
-slide: false
----
-
 Nowadays if you read about Haskell on Twitter, you will quickly find that everyone is constantly screaming about some "advanced" techniques and trying to flex on each other. In reality, all you need to write Haskell is a Haskell compiler. In this post, I'll show you how I ported a Go program I wrote using nothing but GHC and its accompanying boot libraries. I won't even use Cabal or Stack, because I don't need any more libraries to write simple CLIs.
 
 ## What are these boot libraries?

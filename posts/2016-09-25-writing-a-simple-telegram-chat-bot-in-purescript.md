@@ -1,9 +1,3 @@
----
-title: Writing a simple Telegram chat bot in Purescript
-tags: purescript Node.js JavaScript
-author: kimagure
-slide: false
----
 ...a follow-up to ["Async in Purescript is fun and easy"](http://qiita.com/kimagure/items/2ebce1399bac00c79656)
 
 Last time I wrote an article about how async in Purescript is pretty fun and doesn't have to be hard, but that doesn't really give users who are unfamiliar with Purescript/Haskell/Elm a good sense of what writing a normal application looks like using those async tools. In this post, I'll go into a breadth of features that I used to make a simple Telegram chatbot and hopefully provide some examples of how to use `Eff`s and `Stream`s in the "context" of `Aff`.
@@ -254,4 +248,3 @@ If you made it this far, thanks for reading! And please do send me corrections o
 * purescript-node-fs-aff https://github.com/purescript-node/purescript-node-fs-aff
 * purescript-node-child-process https://github.com/purescript-node/purescript-node-child-process
 * purescript-node-streams https://github.com/purescript-node/purescript-node-streams
-

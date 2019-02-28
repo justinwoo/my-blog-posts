@@ -1,9 +1,3 @@
----
-title: Getting audio from Youtube channels in the easiest way possible using Haskell
-tags: Haskell
-author: kimagure
-slide: false
----
 After visiting a Haskell conference as a not-really-yet-a-Haskeller, I thought it would be fun to try writing my [ytcasts](http://qiita.com/kimagure/items/5674e3ae9c87262af762) program in Haskell. In this post, I'll go over some things I used and how I wrote a program to use `youtube-dl` to download audio from videos on a Youtube channel in Haskell.
 
 ## What
@@ -189,4 +183,3 @@ Thanks for reading! Questions? Corrections? Comments? Please let me know on [twi
 
 * This code: https://github.com/justinwoo/ytcasts2
 * My other post on writing a Telgram bot with Purescript: http://futurice.com/blog/making-a-weather-telegram-bot-in-purescript
-

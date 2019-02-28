@@ -1,9 +1,3 @@
----
-title: 99(+) posts on Qiita as an English-only poster: Reflections
-tags: Qiita English
-author: kimagure
-slide: false
----
 Technically, this is not my 99th post on Qiita, as I have deleted some 3-5 of my "most popular" but very inconsequential articles. Regardless, with this post I will have 99 posts on my Qiita profile, and I think it'd be nice to just write a few words about what I like about using Qiita as an English-speaking user who seldom skims Japanese-language articles. *In all reality, this post will be just some stupid rambling, but hopefully this makes my usage of Qiita less mysterious*
 
 ![](https://i.imgur.com/baBeTei.png)
@@ -39,4 +33,3 @@ The next couple of posts out of my feed will be more type-level programming in P
 Yes, there is basically nothing in Finland other than for Marimekko *stores and Muumimaailma.*
 
 *I have once gone to a coin laundry in Kyoto and asked, "センタッキの使い方教えてもらえますか？俺、日本語読めないんで", which was basically true at the time.*
-

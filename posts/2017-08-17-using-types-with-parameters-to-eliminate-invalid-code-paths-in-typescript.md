@@ -1,9 +1,3 @@
----
-title: Using types with parameters to eliminate invalid code paths in Typescript
-tags: TypeScript
-author: kimagure
-slide: false
----
 Recently, I've been trying to get some Typescript users to take advantage of the fact that we have "generics" to constrain types and write code to only the valid paths that we have.
 
 ## The problem
@@ -143,4 +137,3 @@ request :: Resource request response -> request -> Async response
 ```
 
 ...with better inference, tooling, community and technical support, and much more, which can be done with Elm, Purescript, Haskell, Scala, or a host of other languages. If your language can do this with phantom types, I'd appreciate if you would write a blog post about it too.
-

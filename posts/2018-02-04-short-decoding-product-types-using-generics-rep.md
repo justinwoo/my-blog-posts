@@ -1,9 +1,3 @@
----
-title: Short: Decoding Product types using Generics-Rep
-tags: purescript
-author: kimagure
-slide: false
----
 Last time, I wrote about using Generics-Rep to be able to decode JSON into sum types using the Simple-JSON library to actually perform all the actual parsing of elements [here](https://qiita.com/kimagure/items/b27245a5a11462145bd5).
 
 In that example, I didn't add any handling for product types. To be honest, any time you want to encode a product type, you should probably be using records instead. However, if you really want encoding of product types, then one way you might choose to encode them is to use a heterogeneous array.
@@ -103,4 +97,3 @@ So I hope these two posts have shown you some basics on how to use datatype gene
 ## Links
 
 * This repo: https://github.com/justinwoo/simple-json-generic-sums
-

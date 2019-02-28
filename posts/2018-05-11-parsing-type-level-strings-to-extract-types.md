@@ -1,9 +1,3 @@
----
-title: Parsing type-level strings to extract types
-tags: purescript
-author: kimagure
-slide: false
----
 ## 前回のあらすじ
 
 Last time, I wrote ["Well-typed path params in PureScript 0.12"](https://qiita.com/kimagure/items/3273d20c4c5ad74dbe26), in which I talked about how I used the [Record-Format](https://github.com/kcsongor/purescript-record-format) library Csongor Kiss made to then make a `Symbol` (type-level string) templated URL to Record parsing library that allows us to use the template to make a function of `String -> Either _ { | fields }`, where `fields` is extracted from parameters in the template:
@@ -236,4 +230,3 @@ Hopefully this has shown you how type-level string parsing in PureScript 0.12 gi
 
 * This library: <https://github.com/justinwoo/purescript-kushiyaki>
 * Csongor's post on well-typed printf in PureScript 0.12: <http://kcsongor.github.io/purescript-safe-printf/>
-

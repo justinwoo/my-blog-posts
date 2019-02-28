@@ -1,9 +1,3 @@
----
-title: Converting types you don't want to ones you do in Purescript
-tags: purescript typelevel datatype-generics
-author: kimagure
-slide: false
----
 ## Update
 
 As of PureScript 0.12, we no longer need any of these tricks as Generics-Rep will not derive or use `Record` and `Field`, which is good since we can do everything with records directly using `RowToList`!
@@ -120,4 +114,3 @@ Hopefully, this post has shown you that type classes can convert types you don't
 ## Links
 
 * My Typescript types + io-ts schema generation demo https://github.com/justinwoo/purescript-bundaegi
-

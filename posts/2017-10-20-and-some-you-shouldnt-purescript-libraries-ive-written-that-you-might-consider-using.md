@@ -1,9 +1,3 @@
----
-title: PureScript libraries I've written that you might consider using, and some you shouldn't
-tags: purescript
-author: kimagure
-slide: false
----
 My libraries have a pretty "creative" naming scheme -- libraries that are absolutely usable have fairly boring names, and then all the libraries that are probably not ideal for every day are named after Korean snack foods.
 
 Since every now and again someone actually wants to use my demonic creations, I'll try to keep this post somewhat up to date. And no, renaming these isn't an option because people will wrongly think many of these horrible libraries are meant to be used for everything. And also because Korean snack names are better than most other names these could get.
@@ -35,4 +29,3 @@ Please ping me anytime on Twitter [@jusrin00](https://twitter.com/jusrin00) if y
 * [Chapagetti](https://github.com/justinwoo/purescript-chapagetti): a wrapper around React-Redux with correct types.
 * [Gorebab](https://github.com/justinwoo/purescript-gorebab): a wrapper around Redux-Observable that tries to correctly type Epics and uses variants to correctly type filtered actions.
 * [Bundaegi](https://github.com/justinwoo/purescript-bundaegi): a library for only defining Typescript types for use. See OhYes for a more useful library.
-

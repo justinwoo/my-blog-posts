@@ -1,9 +1,3 @@
----
-title: Nix-ify your Psc-Package dependencies
-tags: NixOS purescript
-author: kimagure
-slide: false
----
 If you know how Psc-Package, like many other "package managers", works by cloning a bunch of git repositories specified at versions by solving out a dependency list, this seems like a waste of resources and time if things are constantly refetched. While other package managers that work this way sometimes introduce hacky caching schemes, even well known projects do not do so for both the sake of straightforward usage and lack of committed implementers.
 
 Thankfully, we can get rid of this problem from one step up the chain by fetching the git repositories ourselves using Nix, and the caching and storing of these packages is left to Nix to handle. Thus, I made a Psc-Package2Nix project that generates the derivations for packages declared in our `psc-package.json` files.
@@ -357,4 +351,3 @@ And really, with this, once you have generated the `packages.nix` file in any ot
 * Nix manual on derivations <https://nixos.org/nix/manual/#ssec-derivation>
 * Nix blog post on your "first" derivation <https://nixos.org/nixos/nix-pills/our-first-derivation.html>
 * NixPkgs Generic Setup shell script <https://github.com/NixOS/nixpkgs/blob/6742bdc84595525f8aedc11553493fef70621c31/pkgs/stdenv/generic/setup.sh>
-

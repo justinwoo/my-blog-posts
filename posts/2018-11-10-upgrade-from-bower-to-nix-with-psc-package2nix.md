@@ -1,9 +1,3 @@
----
-title: Upgrade from Bower to Nix with Psc-Package2Nix
-tags: purescript NixOS
-author: kimagure
-slide: false
----
 Recently, our friends at LumiHQ released a major new version of React-Basic with a React-Basic-Starter. This was great, but there were two things I didn't like about this starter repo:
 
 * This uses Bower, which is fairly slow and can make getting working dependencies a real pain in the ass.
@@ -121,4 +115,3 @@ Hopefully this has shown you that you can get rid of Bower and use Nix with Psc-
 * This repo: <https://github.com/justinwoo/spacchetti-react-basic-starter>
 * Easy-PureScript-Nix: <https://github.com/justinwoo/easy-purescript-nix>
 * Psc-Package2Nix: <https://github.com/justinwoo/psc-package2nix>
-

@@ -1,10 +1,3 @@
----
-title: Making a Scroll Table with Purescript-Halogen
-tags: purescript
-author: kimagure
-slide: false
----
-
 By now I've made this in a variety of ways, using [React](http://qiita.com/kimagure/items/9b7dc73d28550cc3248a), [Cycle.js](http://qiita.com/kimagure/items/d29ed7b7bdaaf6977b9a), and [Elm](http://qiita.com/kimagure/items/57cdd08bdf56cc51d294), so naturally, I thought it'd be fitting to make this with Purescript. But instead of using the reactive-lite version like I did last time, I wanted to dive into the most mature solution for UI development in Purescript: purescript-halogen. This won't really adequately explain all the parts involved, but hopefully pique your interest in learning more about Purescript and purescript-halogen.
 
 ## Method
@@ -169,4 +162,3 @@ If you made it this far, thanks for reading! Please also [tweet](https://twitter
 
 * purescript-halogen: https://github.com/slamdata/purescript-halogen
 * My repo: https://github.com/justinwoo/purescript-scroll-table
-

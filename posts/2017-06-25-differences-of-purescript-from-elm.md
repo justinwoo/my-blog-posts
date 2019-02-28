@@ -1,9 +1,3 @@
----
-title: Differences of Purescript from Elm
-tags: purescript Elm
-author: kimagure
-slide: false
----
 **This article is fairly old, so you might look at my resources guide here: <https://purescript-resources.readthedocs.io/en/latest/>**
 
 *(The resource that I wish I had when starting with Purescript, or when revisiting Elm)*
@@ -379,4 +373,3 @@ As the joke goes, "Haskell is an incubator for Purescript ideas".
 * Is there a comparison chart of different things?
 
 Håkon has a project that catalogs of differences [here](https://hakonrossebo.github.io/functional-programming-babelfish/).
-

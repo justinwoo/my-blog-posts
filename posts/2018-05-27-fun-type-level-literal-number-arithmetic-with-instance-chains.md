@@ -1,9 +1,3 @@
----
-title: Fun type-level literal number arithmetic with instance chains
-tags: purescript
-author: kimagure
-slide: false
----
 With PureScript 0.12's instance chains, we can now write a lot more "type-level programs" by writing "overlapping" instances of different "concretely" specified parts. I took advantage of this the other day to write some type-level literal number arithmetic.
 
 ## Numbers and Succ
@@ -190,4 +184,3 @@ Hopefully this has shown you that you can very readily use Symbols and instance 
 ## Links
 
 * Repo <https://github.com/justinwoo/purescript-kazunoko>
-

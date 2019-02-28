@@ -1,9 +1,3 @@
----
-title: Pseudo-dynamically typed errors in PureScript
-tags: purescript
-author: kimagure
-slide: false
----
 While we have many ways to work with possible errors in PureScript like catching them in transformers or representing them as an effect of their own in some library, I have found that in many cases, I have wanted to work with the laziest solution many times: shove it in `Error`. And while I would not recommend that people who care about correctness when it comes to errors would use this, many could build layers on top of what I will introduce here with a newtype of `Effect` that tracks the "variety of errors" in an application.
 
 ## The Problem
@@ -196,4 +190,3 @@ Otherwise, I hope this gives some insights into other ways in which working with
 
 * This code as a library: <https://github.com/justinwoo/purescript-chirashi>
 * Example usage of this library: <https://github.com/justinwoo/purescript-ochadzuke>
-

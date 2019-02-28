@@ -1,9 +1,3 @@
----
-title: Expecting Inferred Types (feat. Custom Type Errors)
-tags: purescript
-author: kimagure
-slide: false
----
 Because functional dependencies are so useful, I often write libraries and other utilities that can fully determine some type given some input type(s). However, when it comes to testing that the output type has been fully determined, the manual way of testing this by deleting an existing type signature and having the PureScript IDE server generate the type signature is quite cumbersome and error-prone. I sat around and thought about this problem until the solution became clear: use no functional dependencies.
 
 ## A Simple Test Case
@@ -165,4 +159,3 @@ Hopefully this post can provide a simple example of the difference between havin
 ## Links
 
 * This code <https://github.com/justinwoo/purescript-expect-inferred>
-

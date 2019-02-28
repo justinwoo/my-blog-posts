@@ -1,9 +1,3 @@
----
-title: Instance Chains to get nested record label "paths"
-tags: purescript
-author: kimagure
-slide: false
----
 With the release of Purescript 0.12-rc, there are a plethora of new features that have been in development for almost a year that are now available, with one of the most interesting being "instance chains". While they allow for all kinds of new solutions to problems that before required awkward workarounds, silly hacks, or were simply not possible at the type level before, I'll go over a sample problem that helps introduce the feature.
 
 ## Nested label "paths"
@@ -210,4 +204,3 @@ Hopefully this has shown you a small demonstration of how one overlapping instan
 
 * This repo <https://github.com/justinwoo/get-nested-keys>
 * PureScript 0.12-rc1 release notes <https://github.com/purescript/purescript/releases/tag/v0.12.0-rc1>
-

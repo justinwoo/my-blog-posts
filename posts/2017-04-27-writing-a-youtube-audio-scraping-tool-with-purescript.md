@@ -1,9 +1,3 @@
----
-title: Writing a Youtube audio scraping tool with Purescript
-tags: purescript
-author: kimagure
-slide: false
----
 Previously I wrote about this topic [here](http://qiita.com/kimagure/items/5674e3ae9c87262af762), but that was a while ago and before I had contributed back some useful libraries. I recently did a refactor that removed all of the FFI code in the project so that it was only 153 lines (28 lines being imports) of Purescript!
 
 ## Why
@@ -235,4 +229,3 @@ Let me know what you think on [twitter](https://twitter.com/jusrin00)!
 * How to Foreign-Generic https://github.com/justinwoo/purescript-howto-foreign-generic
 * Previous post http://qiita.com/kimagure/items/5674e3ae9c87262af762
 * Post about the Haskell version http://qiita.com/kimagure/items/0a2f3d60789c646e4426
-

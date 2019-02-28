@@ -1,9 +1,3 @@
----
-title: Writing a JSON decoder using Purescript's RowToList
-tags: purescript
-author: kimagure
-slide: false
----
 *Update: with the release of Purescript-Record recently, there's no longer a need to use some of the hacks described in the implementation at the very end. See https://twitter.com/jusrin00/status/888096990088888321 and the follow up article here: http://qiita.com/kimagure/items/7d777826acf371293a93*
 
 With the recent Purescript 0.11.6 release, we can now turn row types into type-level lists. There's a nice post by Liam [here](https://liamgoodacre.github.io/purescript/rows/records/2017/07/10/purescript-row-to-list.html) that expains how these work and provides an involved example, but this one will just be a light overview going into a much simpler usage that involves going through a single type-level list.
@@ -204,4 +198,3 @@ let result = handleJSON """
 """
 isRight (result :: E (Array {a :: Int})) `shouldEqual` true
 ```
-

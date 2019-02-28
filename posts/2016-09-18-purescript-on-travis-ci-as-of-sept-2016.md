@@ -1,9 +1,3 @@
----
-title: Purescript on Travis CI (as of Sept 2016)
-tags: purescript
-author: kimagure
-slide: false
----
 # tl;dr
 
 Use the Trusty beta build environment.
@@ -26,4 +20,3 @@ Probably at some point you will run Purescript builds on Travis, and there doesn
 But by taking advantage of the [Trusty beta Build Environments](https://docs.travis-ci.com/user/trusty-ci-environment/), you can get fairly fast builds taking only [a little over a minute](https://travis-ci.org/justinwoo/purescript-xstream/builds/160812640). Just take the config above (swapping out `npm test` if you need) and add it as `.travis.yml` and you should be good to go.
 
 Thanks to [Gary Burgess](https://twitter.com/gb_r) and [Christoph Hegemann](https://twitter.com/kritzcreek) for helping me look into this.
-

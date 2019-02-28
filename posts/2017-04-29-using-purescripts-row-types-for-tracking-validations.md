@@ -1,9 +1,3 @@
----
-title: Using Purescript's Row Types for Tracking Validations
-tags: purescript
-author: kimagure
-slide: false
----
 One of the most fun and interesting parts of Purescript have to do with its row types, which are typically used for two things:
 
 * Records -- for encoding Javascript-style objects directly
@@ -220,4 +214,3 @@ Hopefully this has shown you that we can use row types for fun like storing info
 
 * Repo https://github.com/justinwoo/purescript-const-string-validation-demo/blob/master/src/Main.purs
 * Documentation about Rows https://github.com/purescript/documentation/blob/master/language/Types.md#rows
-

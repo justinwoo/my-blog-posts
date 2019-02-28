@@ -1,9 +1,3 @@
----
-title: Row-typed fun for building SQLite Queries
-tags: purescript
-author: kimagure
-slide: false
----
 Recently, I've been wanting to make some fairly naive SQLite queries using information from record types to map what inputs should go where and what type the output should be parsed to. Well, to work with the generic information of a record type, I pull out the RowToList tricks to get to work.
 
 ## Select All
@@ -307,4 +301,3 @@ Hopefully this has shown you that you can use typeclasses to make things easier 
 * This repo <https://github.com/justinwoo/purescript-chanpon/>
 * Example usage in my vidtracker project <https://github.com/justinwoo/vidtracker/commit/c089415c1c835a7298f4debca675ae31166dfbfb>
 * Slides about RowList and typeclass usage <https://speakerdeck.com/justinwoo/rowlist-fun-with-purescript-2nd-edition>
-

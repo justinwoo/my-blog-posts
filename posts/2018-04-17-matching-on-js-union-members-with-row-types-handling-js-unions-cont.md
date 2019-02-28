@@ -1,9 +1,3 @@
----
-title: Matching on JS Union members with Row Types (Handling JS Unions cont.)
-tags: purescript
-author: kimagure
-slide: false
----
 The other day, I wrote about handling JS Unions with Row Types, by using a constructorless data type with a row parameter to note what labels I want to associate members with, with guard functions for how you would unsafely guard on these types. The `unsafeGuardMember` function described in that post gave us a way to eliminate members of the union until we are ultimately left with no more tracked union members (which very well happens in many uses of JS Unions).
 
 This time, I'll continue with just a small extension to implement a `match` function.
@@ -148,4 +142,3 @@ If you're at all interested in using this library also, ping me sometime and I'l
 
 * PureScript-Hotteok: <https://github.com/justinwoo/purescript-hotteok>
 * Previous blog post, "Handling JS Unions with Row Types": <https://qiita.com/kimagure/items/141423771ad1f5a84425>
-

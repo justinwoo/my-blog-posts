@@ -1,9 +1,3 @@
----
-title: Nice Validation with PureScript
-tags: purescript
-author: kimagure
-slide: false
----
 Edit: I updated the usage of Eff to Effect to account for updates to PureScript, but everything else here is largely the same.
 
 In many programs that we write, we have the need to validate data before we perform any more operations. Unfortunately, most of time we end up with a solution that requires us to build a list of errors and check this list's contents for being empty, but there are easier and nicer solutions to this problem. This is where PureScript's Validation library comes into play.
@@ -179,4 +173,3 @@ I hope this post was able to show that the applicative `Validation` library in P
 
 * Code for this post: https://github.com/justinwoo/nice-validation-example
 * Validation: https://github.com/purescript/purescript-validation
-

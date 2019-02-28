@@ -1,9 +1,3 @@
----
-title: Embedding Elm into a Purescript-Halogen App
-tags: purescript Elm
-author: kimagure
-slide: false
----
 **Update: while I wrote this blog post using Generics-Rep, the updated code in my repository uses first-class row type information for records, so no generics are needed at all. I'll try to write a post about this sooner or later.**
 
 This past weekend, I thought it might be fun to try embedding an old Elm app of mine into a Purescript-Halogen one. In this post, I'll go over some of the things I did to make this work, from the basic mounting work and hooking up the top level things in Halogen to some Generic Programming fun I did to validate that my types worked with Elm ports and generate the code I needed for these.
@@ -424,4 +418,3 @@ I hope this gives you some ideas on how to approach embedding different kinds of
 
 * This repo: https://github.com/justinwoo/purescript-halogen-elm-etch-sketch
 * My post about Datatype Generic programming: http://qiita.com/kimagure/items/cc0ea2982abdf1625e87
-

@@ -1,9 +1,3 @@
----
-title: Writing a full-stack app with Purescript with phantom types
-tags: purescript
-author: kimagure
-slide: false
----
 Over the last couple of years, I've had a basic problem one would solve with a CRUD app -- I want to be able to easily open videos from a directory listing and then mark specific videos as watched. I first made a basic implementation for myself using Javascript and Elixir (mostly to experiment with Elixir), but found myself wanting everything that's good about Purescript that understandably doesn't exist in Elixir, so I decided to make the front-end and backend both in Purescript.
 
 # Tl;dr
@@ -336,4 +330,3 @@ Let me know what you think of writing full-stack Purescript apps in this style [
 * How to Foreign-Generic voodoo: https://github.com/justinwoo/purescript-howto-foreign-generic
 * Halogen: https://github.com/slamdata/purescript-halogen
 * Hyper: https://github.com/owickstrom/hyper
-

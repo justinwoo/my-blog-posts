@@ -1,9 +1,3 @@
----
-title: Formatting type-level Strings with row type labels
-tags: purescript
-author: kimagure
-slide: false
----
 みなさん、ご無沙汰しております〜 It's been a while since I wrote anything here, so this time I'll write about some more `Symbol` formatting using the labels of a row type.
 
 ## What
@@ -183,4 +177,3 @@ This time, we mostly just reused methods that we've seen in my earlier posts abo
 * Repo: https://github.com/justinwoo/purescript-shoronpo
 * Previous post about using record-format to have typed path params: https://qiita.com/kimagure/items/3273d20c4c5ad74dbe26
 * Previous post about parsing `Symbol`s for type annotations: https://qiita.com/kimagure/items/6729a5d55ab99bcee8ec
-

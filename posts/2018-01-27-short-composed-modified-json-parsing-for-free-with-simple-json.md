@@ -1,9 +1,3 @@
----
-title: Short:  Composed Modified JSON parsing for free with Simple-JSON
-tags: purescript
-author: kimagure
-slide: false
----
 Previously, I wrote about how you can get modified JSON parsing for free with Simple-JSON [here](https://qiita.com/kimagure/items/801e1c55d4f8f218f11e). This post took advantage of the first-class nature of record types and the associated row types, using Record operations to insert, rename, and modify fields as needed, with the constraints defining what records these operations should work on, defining the record type that should be used to parse from by context.
 
 While I talked about using Builder shortly, I didn't have any examples there yet. So this time I'll go into an example of how the Builder functions work.
@@ -86,4 +80,3 @@ Builder is how Simple-JSON's handling of records and their fields is implemented
 
 * Repo: https://github.com/justinwoo/multiple-modifications-with-builder-simple-json-example
 * PureScript.Record.Builder: https://pursuit.purescript.org/packages/purescript-record/docs/Data.Record.Builder
-

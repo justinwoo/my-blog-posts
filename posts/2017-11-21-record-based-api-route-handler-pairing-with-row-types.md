@@ -1,9 +1,3 @@
----
-title: Record-based API Route-Handler pairing with Row Types
-tags: purescript
-author: kimagure
-slide: false
----
 The other day, I was thinking of ways I could prevent a common mistake I make when registering routes for my vidtracker project: not registering a route handler. Even though I share the type definitions used for routes between my frontend and backend, it doesn't help if I forget to actually register a handler for the route.
 
 Luckily, we have the technology to do this with the following:
@@ -265,4 +259,3 @@ If you have any questions about this or anything else PureScript, please ask on 
 * https://github.com/justinwoo/vidtracker/
 * some extra record functions with various implementations and examples https://github.com/justinwoo/purescript-record-extra
 * thread about RowToList https://www.reddit.com/r/purescript/comments/6mss5o/new_in_purescript_0116_rowtolist/
-

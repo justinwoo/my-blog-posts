@@ -1,9 +1,3 @@
----
-title: PureScript package management explained
-tags: purescript
-author: kimagure
-slide: false
----
 In this post, I will explain how the PureScript package management solutions work and why they exist.
 
 ## Introduction
@@ -63,4 +57,3 @@ I do not use Bower to manage dependencies for projects.
 There is no real conclusion to this post which is just an information dump. If you want active support, **use Spago**. If you want to use some lightweight solutions and really like DIY, then **use either Psc-Package or Spago**. If you really don't care about anything I've written here and you're okay with using unpopular technology, **use Bower**.
 
 If you still don't know what to do, start from here: <https://github.com/justinwoo/spacchetti-react-basic-starter>
-

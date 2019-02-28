@@ -1,9 +1,3 @@
----
-title: Type-safe Record operations with Purescript-record
-tags: purescript
-author: kimagure
-slide: false
----
 Previously, I talked about how we can use `RowToList` in Purescript to work with row types of records by converting them to type-level lists [here](http://qiita.com/kimagure/items/d8a0681ae05b605c5abe). But the actual implementation was a little gory and maybe brittle -- it relies on implementation details of `StrMap` and loses type safety in that it ignores the requirement of unique keys and the type of the individual fields. While we can write tests against our implementation, unsafe coercion of data doesn't really give us the most confidence.
 
 Thankfully, [Purescript-Record](http://pursuit.purescript.org/packages/purescript-record) gives us all the type-safe operations on records with proper typings that we want. I recently went through and fixed the implementation of record building in Simple-JSON to take advantage of this library.
@@ -143,4 +137,3 @@ There has been talk about making a Record.ST module or something to make ST-cons
 * This repo: https://github.com/justinwoo/purescript-simple-json
 * Purescript-Record: https://github.com/purescript/purescript-record
 * More about `RowToList`: https://www.reddit.com/r/purescript/comments/6mss5o/new_in_purescript_0116_rowtolist/
-

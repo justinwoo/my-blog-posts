@@ -1,9 +1,3 @@
----
-title: Fun with Records in Haskell by making "RowLists"
-tags: Haskell
-author: kimagure
-slide: false
----
 Last time, I wrote about my pairing a record of phantom types with a record of functions that were to be used to register route handlers in PureScript [here](https://qiita.com/kimagure/items/bb9bd3e4ffe1bba4c214). I plan to do something similar in Haskell, so I decided to test the waters by trying out writing a pairwise operations demo in Haskell.
 
 I have to say up front that this post doesn't have much value other than being a wacky Haskell-pyramidy grab-bag of tricks that one *might* consider using in their apps, but probably shouldn't be sooooo prevalent in their codebase.
@@ -203,4 +197,3 @@ Admittedly, the `GRowToList` implementation here doesn't have the one part that 
 * This demo: https://github.com/justinwoo/records-fields-pairwise
 * Random stuff about PureScript's RowLists and RowToList: https://github.com/justinwoo/awesome-rowlist
 * An application of this idea in PureScript in my last blog post, "Record-based API Route-Handler pairing with Row Types": https://qiita.com/kimagure/items/bb9bd3e4ffe1bba4c214
-

@@ -1,9 +1,3 @@
----
-title: Making Diffs of differently-typed Records in PureScript
-tags: purescript
-author: kimagure
-slide: false
----
 For a while now, there's been a lot of confusion about how to do "diffing" of records in PureScript, a leftover of how people have worked with hashmaps/objects in dynamic langauges. While the vast majority of users who want to "diff" records will either 1) diff two records of the same type (which only involves iteration of the fields) or 2) want to generate a StrMap diff, there's likely a weird third party looking for the most esoteric kind of diff: a diff of two differently-typed records.
 
 This post will talk about my experience of solving the third kind of problem, which is largely useless for most programs, but somewhat interesting to read about.
@@ -196,4 +190,3 @@ Hopefully this has shown that there's a lot of fun stuff you can do with type-le
 ## Links
 
 * Repo: https://github.com/justinwoo/record-diff
-

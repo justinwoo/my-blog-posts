@@ -1,9 +1,3 @@
----
-title: Datatype-Generic programming for generating TypeScript code from Purescript
-tags: purescript
-author: kimagure
-slide: false
----
 *A guide I could have used getting started*
 
 By no means is this going to be a comprehensive review, or really even present anything new to the topic, and I'll try to add links to much better, in-depth explanations below the article. I hope this will help people like me, who've never really tried to do any Generic programming (no, not the "Java/OOP Generics") get started in doing something for fun.
@@ -360,4 +354,3 @@ Solutions I've found in various languages:
 * [Scala: Shapeless](https://github.com/milessabin/shapeless)
 * [OCaml: Generic](https://github.com/balez/generic)
 * [F#: TypeShape](https://github.com/eiriktsarpalis/TypeShape)
-

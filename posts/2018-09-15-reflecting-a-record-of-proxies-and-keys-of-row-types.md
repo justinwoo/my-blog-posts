@@ -1,9 +1,3 @@
----
-title: Reflecting a record of proxies and keys of row types
-tags: purescript
-author: kimagure
-slide: false
----
 The more I use anything related to type information, the more I've found that I don't want to actually write out the proxies that I know I'll need to use, so I usually end up putting these into records.
 
 But the problem I have is that when I put these into records, I really only want to provide the type information, and I don't want to have to always update the value, as it's just tedious. For example:
@@ -219,4 +213,3 @@ I also really hope that my links to my previous posts show that all of these blo
 #### P.S.
 
 Is anyone interested in helping me write a Japanese post for Qiita? I have been thinking of writing a simpler version of [Type classes and instances are pattern matching for types](https://qiita.com/kimagure/items/08c59fa21adcd6968ae1) that would be useful for those who read my posts mostly for the code but not much of the actual words. My Japanese isn't very good, but hopefully you can help me fix many details if we start working on this.
-

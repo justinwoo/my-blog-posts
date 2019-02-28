@@ -1,9 +1,3 @@
----
-title: What I've learned since quitting Elm
-tags: purescript
-author: kimagure
-slide: false
----
 In 2015, I spent some of my spare time trying out Elm, to render something simple in the browser and also to run some programs in Node. During those times, there were very few restrictions on what the main function could be, so writing a Node program was very simple, especially given the Stream type that allowed for programming in a simple reactive way. I quit using Elm after a while of being constantly frustrated with its alternative dictionary of terms, lack of links to external resources, more restriction to writing only the same kind of front end apps, false solutions (e.g. ["Just use scrap your typeclasses"](http://reasonablypolymorphic.com/blog/elm-is-wrong)), and the way changes and restrictions were communicated in terms of "thought leader knows best", long before the release of Elm 0.17, which killed the way I wrote applications using Streams.
 
 In this post, I'll just highlight some of the most important things I've learned since the beginning of 2016 by using PureScript.
@@ -163,4 +157,3 @@ I guess people assume you have to know Haskell to use PureScript, but I started 
 
 * PureScript language reference <https://github.com/purescript/documentation/tree/master/language>
 * My "opinionated" reference of PureScript <https://purescript-resources.readthedocs.io/en/latest/>
-

@@ -1,9 +1,3 @@
----
-title: Well-typed path params in PureScript 0.12
-tags: purescript
-author: kimagure
-slide: false
----
 Previously, I wrote about using tuples to represent URLs with parameters in my article [Type-level Path Params parsed to Records with PureScript](https://qiita.com/kimagure/items/4f5c6054870f631ff768). While the approach described in this article is fairly interesting, it's overall fairly disappointing to work with when the way to work with this looks like this:
 
 ```hs
@@ -209,4 +203,3 @@ Hopefully this has shown you that with 0.12 giving us the ability to effectively
 * This library <https://github.com/justinwoo/purescript-kushiyaki>
 * Well-typed printfs cannot go wrong <http://kcsongor.github.io/purescript-safe-printf/>
 * PureScript 0.12-rc1 release notes <https://github.com/purescript/purescript/releases/tag/v0.12.0-rc1>
-

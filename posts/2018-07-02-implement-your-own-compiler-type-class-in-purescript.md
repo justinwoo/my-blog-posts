@@ -1,9 +1,3 @@
----
-title: Implement your own compiler type class in PureScript
-tags: purescript
-author: kimagure
-slide: false
----
 In PureScript, you might have seen that some type classes are implemented in the compiler's `Prim` modules, for various reasons such as better type inference, using information not available in the type system, efficiency of generated instances, avoiding redundant instances, etc. There may be many times when you also need to implement your own compiler type class for solving things not possible in PureScript currently, such as was the case with `Row.Cons`, `RowToList`, `Symbol.Cons`, and more.
 
 In this post, we'll look at what it looks like to add a compiler type class with the current state of the PureScript compiler. For our example, we'll add a type class that can tell us if a `Symbol` contains a `Symbol` and returns a result of `kind` `Boolean`.
@@ -155,4 +149,3 @@ In my case, I have a bit of a need for this class along with the ability to brea
 ## Links
 
 * PR for `Symbol.BreakOn` https://github.com/purescript/purescript/pull/3383
-

@@ -1,9 +1,3 @@
----
-title: Making a simple node program with Purescript
-tags: purescript
-author: kimagure
-slide: false
----
 For whatever reason, I decided at 27:00 Friday that I should make a program that would get audio from videos of a Youtube channel. This article will go over the details on why and how I made this with Purescript (and some FFI).
 
 ## Why
@@ -251,4 +245,3 @@ Please let me know if you have corrections/suggestions/feedback: [@jusrin00](htt
 * My repo: https://github.com/justinwoo/ytcasts/
 * Purescript By Example: https://leanpub.com/purescript/read
 * purescript-aff: https://github.com/slamdata/purescript-aff
-

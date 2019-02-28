@@ -1,9 +1,3 @@
----
-title: Converting Generics-Rep to Row Types in PureScript
-tags: purescript
-author: kimagure
-slide: false
----
 Previously, I wrote about turning Generics-Rep types into a `RowList`-like structure in [Generics-Rep Sums and Products to List for Fun](https://qiita.com/kimagure/items/a5e340242f038b0dc748). The other day, I thought about how I would much rather use row types for this, but ran into the problem that while I had the constructor names available in sum type generics, product types would not be able to extract information out in a useful way since there is no proper way to get the name of a type in PureScript.
 
 I thought that I didn't have a solution for this problem for a while, but then I realized that since I had been writing so many `Succ` classes, I might as well use this same method to label my product type arguments "a", "b", "c", and so on, and with this, I no longer had any excuses -- I must get to work on this.
@@ -148,4 +142,3 @@ I hope this has shown how generics-rep information can be quite readily used for
 
 * Previous post about Generic Reps as types <https://qiita.com/kimagure/items/a5e340242f038b0dc748>
 * This code <https://github.com/justinwoo/purescript-biang>
-

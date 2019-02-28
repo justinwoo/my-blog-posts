@@ -1,9 +1,3 @@
----
-title: Async in Purescript is fun and easy
-tags: purescript
-author: kimagure
-slide: false
----
 This post is targeted to people who are getting started or are interested in Purescript. There are some parallels with things that exist in Javascript, but not really, since there are no real facilities to make such generic interfaces possible in Javascript.
 
 Let's get started.
@@ -277,4 +271,3 @@ Thanks!
 * purescript-aff: https://github.com/slamdata/purescript-aff
 * purescript-observable: https://github.com/bodil/purescript-observable
 * purescript-xstream: https://github.com/justinwoo/purescript-xstream
-

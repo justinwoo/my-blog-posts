@@ -1,9 +1,3 @@
----
-title: Consuming Electron apps in Nix by patching binaries
-tags: NixOS
-author: kimagure
-slide: false
----
 Many useful GUI apps nowadays are made using Electron, for better and worse. And while consuming these applications should be fairly easy, in reality, they end up with so many dependencies and assumptions about your environment that they can be painful to reproducibly install on different systems. And while we could try to install a cocktail of libraries with our favorite sudo-driven package managers, another nice property we could look towards other than getting rid of sudo calls is to be able to choose exactly what we use as our sources.
 
 In this post, we'll explore how to patch the binary in Electron applications with the [PatchELF](https://nixos.org/patchelf.html) utility to replace the dynamic linker and the RPATH, a fundamental of how to prepare programs for reproducible consumption across environments and via NixOS.
@@ -154,4 +148,3 @@ In the future, I'll also talk about how wrapProgram can be a feasible alternativ
 * PatchELF: <https://nixos.org/patchelf.html>
 * Azure Data Studio Nix: <https://github.com/justinwoo/azuredatastudio-nix>
 * Example: VSCode derivation from NixPkgs: <https://github.com/NixOS/nixpkgs/blob/c8c53fcb1154999dabac350bebe12611a0f75024/pkgs/applications/editors/vscode/default.nix>
-

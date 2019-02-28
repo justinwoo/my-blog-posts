@@ -1,9 +1,3 @@
----
-title: We don't need Peano Numbers in PureScript
-tags: purescript
-author: kimagure
-slide: false
----
 It's been a while since I've written anything, since I've been on vacation in Japan. But since I'm bored after spending something like two months cumulatively in Tokyo, I might as well write something to amuse myself and to show the world something really cool/bad -- we don't need peano numbers in PureScript.
 
 ## "Motivation"
@@ -195,4 +189,3 @@ Hopefully I've demonstrated something amusing here that can lead to some more in
 ## Links
 
 * <https://github.com/justinwoo/purescript-tanghulu>
-

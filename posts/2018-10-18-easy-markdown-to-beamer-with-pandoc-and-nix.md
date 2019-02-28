@@ -1,9 +1,3 @@
----
-title: Easy Markdown to Beamer with Pandoc and Nix
-tags: NixOS
-author: kimagure
-slide: false
----
 For the past couple of years, I've been trying to use Google Slides to prepare presentations, copying formatted text from VSCode to get highlighted and formatted code in my slides. However, since preparing slides in Google Slides ends up being mostly work on trying to get the layout to play nice, I've decided to stop using Google Slides and opt for a simpler option: beamer.
 
 However, it's quite difficult to get enough information about how to do this, so I have put together a repository that can be used as a reference: <https://github.com/justinwoo/easy-markdown-beamer-pandoc>
@@ -120,4 +114,3 @@ The result looks like this when we run `make`:
 ## Conclusion
 
 Hopefully this has shown you that working with markdown+beamer+pandoc for making slides can be made fairly easy and reproducible by using the Nix package manager, even if it's a bit hard to find much documentation about it.
-

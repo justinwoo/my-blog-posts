@@ -1,9 +1,3 @@
----
-title: Using IxMonad to enforce good hamburger building in Purescript
-tags: purescript
-author: kimagure
-slide: false
----
 Recently, I came across a use for indexed monads to do some mutations on a foreign data type and keep track of its actual type as it changed, with a final operation for extracting out the result. While my implementation of this is hacky, there are some cool uses of IxMonad out there that provide useful restrictions, like the way response state is represented in [Hyper](https://github.com/owickstrom/hyper).
 
 For this purpose, I made a demo where you can strictly specify how a hamburger should be built using IxMonad.
@@ -185,4 +179,3 @@ If nothing else, hopefully this has shown you one way to properly make hamburger
 * "roskis"/trashcan demo (https://github.com/justinwoo/purescript-roskis) -- for a more perverse example, you might be interested in my demo where I used an indexed monad to keep track of the type of the mutable record I wrote to, preventing more operations when I pull the record out.
 
 * This repo (https://github.com/justinwoo/hamburger-builder-demo)
-

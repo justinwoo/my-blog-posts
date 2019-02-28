@@ -1,9 +1,3 @@
----
-title: Making a new library and using it in your own Psc-Package set
-tags: purescript
-author: kimagure
-slide: false
----
 For two years now, I've been writing PureScript-Node programs that need to spawn a child process and read the output out, and this whole time, I've been writing out the same code over and over for no real good reason. Recently, I finally decided to extract this repeated code out to a library, so I wouldn't have to maintain all the different versions anymore.
 
 Well, might as well finally make a library for this, right?
@@ -144,4 +138,3 @@ If nothing else, forking package-sets and applying some git knowledge to manage 
 ## Links
 
 * Psc-Package docs: https://github.com/purescript/psc-package#add-a-package-to-the-package-set
-

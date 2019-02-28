@@ -1,9 +1,3 @@
----
-title: User empowerment of FFI in PureScript
-tags: purescript
-author: kimagure
-slide: false
----
 When using PureScript, one of the main features is being able to use the foreign function interface for directly calling into JavaScript to get the results you need. This has many benefits, such as
 
 * Being able to give proper types to a given expression
@@ -153,4 +147,3 @@ Readers also pointed out that I didn't talk about exposing foreign values as `Fo
 * PureScript documentation guide on FFI <https://github.com/purescript/documentation/blob/master/guides/FFI.md>
 * PureScript-Effect uncurried function documentation <https://pursuit.purescript.org/packages/purescript-effect/2.0.0/docs/Effect.Uncurried>
 * PureScript-Aff-Promise documentation <https://pursuit.purescript.org/packages/purescript-aff-promise/2.0.0>
-

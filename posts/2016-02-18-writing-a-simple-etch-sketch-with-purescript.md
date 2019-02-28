@@ -1,10 +1,3 @@
----
-title: Writing a simple Etch-Sketch with PureScript
-tags: purescript JavaScript
-author: kimagure
-slide: false
----
-
 *This post was written for purescript-pux 0.2.x, and 1.0.0 has come out with some major changes. Parts of this post may be very different from what is currently in the library. I've updated some of the sections below, so this should be fairly up-to-date with my repository.*
 
 This will be just a high-level walkthrough of the kinds of things I ran into and enjoyed while making a simple Etch-A-Sketch demo with PureScript. My only hope is that this post will make you curious enough about trying out PureScript (or Elm), and is targeted at Javascripters who want to learn something new or FPers who want to read something that will make them cringe.
@@ -232,4 +225,3 @@ Let me know on [Twitter](https://twitter.com/jusrin00) if this was at all helpfu
 * purescript-signal https://github.com/bodil/purescript-signal
 * purescript-pux https://github.com/alexmingoia/purescript-pux
 * PureScript by Example https://leanpub.com/purescript/read
-
