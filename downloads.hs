@@ -8,7 +8,7 @@ type Entry = (String, String)
 
 download :: Entry -> IO ()
 download (name_, url) = do
-  let name = "dump/" <> name_
+  let name = "posts/" <> name_
   let cmd = "test -e " <> name <> " || wget " <> url <> " -O " <> name
   process <- Proc.spawnCommand cmd
   exitCode <- Proc.waitForProcess process
