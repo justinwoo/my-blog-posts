@@ -4,6 +4,8 @@ tags: purescript
 author: kimagure
 slide: false
 ---
+Edit: I updated the usage of Eff to Effect to account for updates to PureScript, but everything else here is largely the same.
+
 In many programs that we write, we have the need to validate data before we perform any more operations. Unfortunately, most of time we end up with a solution that requires us to build a list of errors and check this list's contents for being empty, but there are easier and nicer solutions to this problem. This is where PureScript's Validation library comes into play.
 
 ## What is Validation?
@@ -76,7 +78,7 @@ testMyValidated =
 And we can use this validated value already.
 
 ```hs
-printMyValidated :: MyValidated FormData -> Eff _ Unit
+printMyValidated :: MyValidated FormData -> Effect Unit
 printMyValidated = unV
   (\errors -> log $ "got errors: " <> intercalate ", " errors)
   (\formData ->
@@ -87,7 +89,7 @@ printMyValidated = unV
       <> formData.bananaColor
   )
 
-main :: forall e. Eff (console :: CONSOLE | e) Unit
+main :: Effect Unit
 main = do
   printMyValidated testMyValidated
   -- output:
@@ -109,7 +111,7 @@ errorMyValidated2 =
   <$> appleIsRed "yellow"
   <*> bananaIsNotGreen "green"
 
-main :: forall e. Eff (console :: CONSOLE | e) Unit
+main :: Effect Unit
 main = do
   printMyValidated testMyValidated
   -- output:

@@ -1,3 +1,5 @@
+#!/usr/bin/env runghc
+
 module Main where
 
 import qualified System.Process as Proc
@@ -5,7 +7,8 @@ import qualified System.Process as Proc
 type Entry = (String, String)
 
 download :: Entry -> IO ()
-download (name, url) = do
+download (name_, url) = do
+  let name = "dump/" <> name_
   let cmd = "test -e " <> name <> " || wget " <> url <> " -O " <> name
   process <- Proc.spawnCommand cmd
   exitCode <- Proc.waitForProcess process
