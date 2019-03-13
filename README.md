@@ -2,6 +2,13 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+
+#### 2019 Mar 14
+
+##### Rust with Runtime Deps made easy with Nix
+
+<https://qiita.com/kimagure/items/4e4e65dde9471a17b304>
+
 #### 2019 Mar 02
 
 ##### Generic Sums to Variant and back again
