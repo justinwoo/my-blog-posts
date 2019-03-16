@@ -2,6 +2,11 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### 2019 Mar 16
+
+##### Building Purescript Projects with Nix
+
+<https://qiita.com/kimagure/items/d2687a5a68c84cc651d0>
 
 #### 2019 Mar 14
 

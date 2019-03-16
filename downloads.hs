@@ -129,6 +129,7 @@ posts =
   , ( "posts/2019-01-13-consuming-electron-apps-in-nix-by-patching-binaries.md", "https://qiita.com/kimagure/items/6e0fd0aad389c1f274c6.md" )
   , ( "posts/2019-02-02-purescript-package-management-explained.md", "https://qiita.com/kimagure/items/6a5881b07bc4a3e6ea86.md" )
   , ( "posts/2019-02-11-making-a-simple-haskell-cli-without-anything-fancy.md", "https://qiita.com/kimagure/items/9b33a5fa48baf105abe4" )
-  , ( "posts/2019-03-02-generic-sums-to-variant-and-back-again.md", "https://qiita.com/kimagure/items/c4791d309b5cda607ce2" )
-  , ( "posts/2019-03-14-rust-with-runtime-deps-made-easy-with-nix.md", "https://qiita.com/kimagure/items/4e4e65dde9471a17b304" )
+  , ( "posts/2019-03-02-generic-sums-to-variant-and-back-again.md", "https://qiita.com/kimagure/items/c4791d309b5cda607ce2.md" )
+  , ( "posts/2019-03-14-rust-with-runtime-deps-made-easy-with-nix.md", "https://qiita.com/kimagure/items/4e4e65dde9471a17b304.md" )
+  , ( "posts/2019-03-16-building-purescript-projects-with-nix.md", "https://qiita.com/kimagure/items/d2687a5a68c84cc651d0.md" )
   ]
