@@ -132,4 +132,5 @@ posts =
   , ( "posts/2019-03-02-generic-sums-to-variant-and-back-again.md", "https://qiita.com/kimagure/items/c4791d309b5cda607ce2.md" )
   , ( "posts/2019-03-14-rust-with-runtime-deps-made-easy-with-nix.md", "https://qiita.com/kimagure/items/4e4e65dde9471a17b304.md" )
   , ( "posts/2019-03-16-building-purescript-projects-with-nix.md", "https://qiita.com/kimagure/items/d2687a5a68c84cc651d0.md" )
+  , ( "posts/2019-03-16-short-overriding-version-bounds-in-nix-haskell.md", "https://qiita.com/kimagure/items/c3fb87f7f71b9df99078.md" )
   ]

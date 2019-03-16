@@ -4,6 +4,12 @@ These are my blog posts and the associated URLs. Updated infrequently, newest en
 
 #### 2019 Mar 16
 
+#### Short: Overriding version bounds in Nix Haskell
+
+<https://qiita.com/kimagure/items/c3fb87f7f71b9df99078>
+
+#### 2019 Mar 16
+
 ##### Building Purescript Projects with Nix
 
 <https://qiita.com/kimagure/items/d2687a5a68c84cc651d0>
