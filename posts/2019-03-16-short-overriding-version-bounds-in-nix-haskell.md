@@ -128,6 +128,10 @@ in pkgs.stdenv.mkDerivation {
 
 And that's it.
 
+## P.S.
+
+Recently (as in, basically the same day this article was posted), a commit was made to nixpkgs to explicitly mark packages as "broken" for version bounds failures. This means that we must also override `broken` above. Supposedly you should be able to add `broken = false;` above, but I have opted to use `overrideAttrs` to do this for now.
+
 ## Conclusion
 
 Hopefully this has shown you that writing derivations that simply call GHC are not too hard to write, and that overcoming the typical version bounds mismatch problem is not too bad if you dig into the details some.
