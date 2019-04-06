@@ -2,9 +2,15 @@
 
 These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
 
+#### 2019 Apr 06
+
+##### Using Tree-sitter from PureScript
+
+<https://qiita.com/kimagure/items/8079a3d6c118fb010394>
+
 #### 2019 Mar 16
 
-#### Short: Overriding version bounds in Nix Haskell
+##### Short: Overriding version bounds in Nix Haskell
 
 <https://qiita.com/kimagure/items/c3fb87f7f71b9df99078>
 
