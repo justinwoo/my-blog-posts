@@ -75,6 +75,19 @@ pulp --psc-package init; pulp run
 
 If it doesn't flood you with compile messages and "Hello sailor!", then we have a problem. Otherwise, you have everything set up now. Now you can go on and write some web applications with [React-Basic](https://github.com/lumihq/purescript-react-basic), [Halogen](https://github.com/slamdata/purescript-halogen) or Node applications in whatever way you choose. This might be a good time for you to join the [FP slack](https://fpchat-invite.herokuapp.com/) and ask people on #purescript and #purescript-beginners what kinds of things you should try doing. Sky's the limit!
 
+### Potential error from missing branch:
+
+You may run into this if a corresponding package set for a given version number has not been released:
+
+```
+warning: Could not find remote branch psc-x.yy.z to clone.
+fatal: Remote branch psc-x.yy.z not found in upstream origin
+```
+
+Normally you are supposed to use a given tag a psc-x.yy.z-yyyymmdd.
+
+If you run into this issue, simply try another tag and report that the default package set is missing.
+
 ## Conclusion
 
 Hopefully this has shown you that you can get started with PureScript in 2018 without Bower and get on your way to taking advantage of anything that exists in PureScript and JavaScript. Have fun!
