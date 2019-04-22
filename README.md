@@ -1,6 +1,12 @@
 # My Blog Posts
 
-These are my blog posts and the associated URLs. Updated infrequently, newest entries can probably be found on <https://qiita.com/kimagure>. If you're reading an old post of mine but need some things updated to understand, let me know by opening an issue or pinging me on Twitter.
+These are my blog posts. You can also find these on <https://qiita.com/kimagure>.
+
+#### 2019 Apr 29
+
+##### Short: Simplified Tortellini with Instance Chains
+
+[file](./posts/2019-04-29-short-simplified-tortellini-with-instance-chains.md)
 
 #### 2019 Apr 06
 
