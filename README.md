@@ -4,6 +4,12 @@ These are my blog posts. You can also find these on <https://qiita.com/kimagure>
 
 #### 2019 Apr 29
 
+##### Why Easy-PureScript-Nix
+
+[file](./posts/2019-04-29-why-easy-purescript-nix.md)
+
+#### 2019 Apr 29
+
 ##### Short: Simplified Tortellini with Instance Chains
 
 [file](./posts/2019-04-29-short-simplified-tortellini-with-instance-chains.md)
