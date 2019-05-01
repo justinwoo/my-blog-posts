@@ -117,3 +117,7 @@ And given the history of this package and the various other contexts (n.b. endle
 ## If you're going to insist on doing some other shit, at least do it right
 
 There seem to be some various developments in actually generating Nix expressions from Stack project files, as there should be. I will never want to use these, but someone who insists on not using patchELF might find them useful.
+
+## P.S.
+
+Arian has written on Twitter about some of the disappointments of the above here: <https://twitter.com/ProgrammerDude/status/1123220531044548612>
