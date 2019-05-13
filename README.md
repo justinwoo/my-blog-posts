@@ -2,6 +2,12 @@
 
 These are my blog posts. You can also find these on <https://qiita.com/kimagure>.
 
+#### 2019 May 14
+
+##### Consuming Node projects for Nix users
+
+[file](./posts/2019-05-14-consuming-node-projects-for-nix-users.md)
+
 #### 2019 Apr 29
 
 ##### Why Easy-PureScript-Nix
