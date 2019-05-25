@@ -2,6 +2,12 @@
 
 These are my blog posts. You can also find these on <https://qiita.com/kimagure>.
 
+#### 2019 May 27
+
+##### Minimal PureScript for Node users
+
+[file](posts/2019-05-27-bare-minimum-purescript-for-node-users.md)
+
 #### 2019 May 14
 
 ##### Consuming Node projects for Nix users
