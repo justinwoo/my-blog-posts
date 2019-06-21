@@ -2,6 +2,12 @@
 
 These are my blog posts. You can also find these on <https://qiita.com/kimagure>.
 
+#### 2019 Jun 22
+
+##### Spago2Nix: Why and How
+
+[file](posts/2019-06-22-spago2nix-why-and-how.md)
+
 #### 2019 Jun 20
 
 ##### Installing PureScript in 2019
