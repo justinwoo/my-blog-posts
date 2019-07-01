@@ -2,6 +2,12 @@
 
 These are my blog posts. You can also find these on <https://qiita.com/kimagure>.
 
+#### 2019 Jul 02
+
+##### Write a simple CLI in PureScript
+
+[file](posts/2019-07-02-write-a-simple-cli-in-purescript.md)
+
 #### 2019 Jun 23
 
 ##### Simple Parameteried Queries with Row Union
