@@ -1,3 +1,9 @@
+### Warning
+
+This post is actually about the implementation of Easy-PureScript-Nix. A post about consuming PureScript Nix tools to come at a later date. Please check the repo README.
+
+-----
+
 For a while, I've been wanting to come up with some kind of way to download and prepare programs I need to work with my various PureScript/PS-related Dhall projects, but could not really come up with a clear solution. While one popular method is to try to use Docker containers for everything, it incurs a lot of costs both on initialization and repeat initializations, and while many use npm to manage all of their dependencies, many times I am both not running on environments with npm installed nor do I want to use npm to manage installations. So, I ended up with Nix.
 
 By the way, I use Ubuntu because I am pretty lazy. So most of this applies to Nix on Ubuntu (e.g. Travis, Azure CI), not NixOS.
