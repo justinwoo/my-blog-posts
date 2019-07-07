@@ -1,3 +1,5 @@
+# Simple Parameteried Queries with Row Union
+
 Last week, I spoke at Monadic Party, a workshop-oriented conference in Poznan, Poland (<https://monadic.party/>). At the event, I happened to catch Arthur Xaiver's talk on type-safe DSLs, and started to wonder about a rather basic-ish problem of mine: building SQLite queries but with some typed parameters.
 
 I made this small example to go along with my workshop "Real World PureScript", which is an introduction to the PureScript type system and FFI, and how types can be used to provide nicer and stronger guarantees on FFI: <https://github.com/justinwoo/real-world-purescript-workshop-2019>

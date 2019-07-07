@@ -1,3 +1,5 @@
+# Spago2Nix: Why and How
+
 Recently, I spent my time at ZuriHac making Spago2Nix, a tool to generate a Nix expression of PureScript dependencies specified by Spago. In this post, I'll talk about what I wanted to get done with this tool, and how I went about it.
 
 ## Generating a Nix expression of packages

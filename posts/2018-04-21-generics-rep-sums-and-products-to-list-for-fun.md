@@ -1,3 +1,5 @@
+# Generics-Rep Sums and Products to List for Fun
+
 Sometimes when I write PureScript code, I want to do something as easy as using row types with `RowToList` when dealing with normal ADTs, but I don't quite have as convenient of ways to work with ADTs: when I deal with (Polymorphic) `Variant`s instead of sums, I can simply `RowToList` on the row type and work with the type level-list. Likewise, I when I deal with `Record` problems instead of products, I can simply `RowToList` again on the row type and work with the type-level list. But why not for normal ADT types' Generic Representations? Well, very well could!
 
 ## `Sum` to `SumList1`

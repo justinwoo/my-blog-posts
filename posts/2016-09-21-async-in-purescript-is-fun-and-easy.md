@@ -1,3 +1,5 @@
+# Async in Purescript is fun and easy
+
 This post is targeted to people who are getting started or are interested in Purescript. There are some parallels with things that exist in Javascript, but not really, since there are no real facilities to make such generic interfaces possible in Javascript.
 
 Let's get started.

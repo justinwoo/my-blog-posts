@@ -1,3 +1,5 @@
+# Setting up PureScript in March 2018
+
 **Updated December 10th, 2018. Original title: "Setting up PureScript in March 2018"**
 
 People ask me how to set up PureScript often, and while the majority of the people I talk to are already experienced with JS tooling (both in web and node), I've also run into plenty who haven't been exposed to either.

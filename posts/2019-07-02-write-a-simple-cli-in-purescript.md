@@ -1,3 +1,5 @@
+# Write a simple CLI in PureScript
+
 Previously, I wrote about how I made the Spago2Nix project and what was involved, but didn't go much into the details of how the implementation worked. This time, I'll write about how putting together a command line application with minimal setup doesn't need to involve too much work, and some of the most common tools you'll end up using to do so.
 
 Writing a CLI typically involves three common tasks, so I will cover them in the sections below:

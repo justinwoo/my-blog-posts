@@ -1,3 +1,5 @@
+# How to convert Markdown into inline-styled HTML
+
 I needed to get some Markdown into inline-styled HTML for my work's blog today, was surprised I couldn't find any straightforward guides. Well folks, here we are:
 
 1. generate your CSS with Pygmentize

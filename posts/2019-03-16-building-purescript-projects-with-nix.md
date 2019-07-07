@@ -1,3 +1,5 @@
+# Building Purescript Projects with Nix
+
 Recently, some people have asked me how to build PureScript projects with Nix using Psc-Package2Nix. Admittedly, I haven't seriously tried to do this before with PureScript, because I use Nix primarily to prepare and build tooling and set up my environment. However, doing this with information generated from Psc-Package2Nix is fairly straightforward, but does involve writing some Nix.
 
 ## From the top

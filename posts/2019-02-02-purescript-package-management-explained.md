@@ -1,3 +1,5 @@
+# PureScript package management explained
+
 In this post, I will explain how the PureScript package management solutions work and why they exist.
 
 ## Introduction

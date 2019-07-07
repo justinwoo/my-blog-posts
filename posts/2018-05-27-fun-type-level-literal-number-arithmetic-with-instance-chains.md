@@ -1,3 +1,5 @@
+# Fun type-level literal number arithmetic with instance chains
+
 With PureScript 0.12's instance chains, we can now write a lot more "type-level programs" by writing "overlapping" instances of different "concretely" specified parts. I took advantage of this the other day to write some type-level literal number arithmetic.
 
 ## Numbers and Succ

@@ -1,3 +1,5 @@
+# Managing Psc-Package sets with Dhall
+
 Some people who use PureScript may use Psc-Package to manage their dependencies, which works by having a package set, which is a collection of packages defined at specific versions, which can then depend on each other simply by name.
 
 At ZuriHac, I found myself in the Dhall room for a while, and thought that it might be interesting to try using it to generate my package set, and I had a working version within a couple of hours starting from near-zero knowledge of what Dhall could do. I've published the results in [Spacchetti](https://github.com/justinwoo/spacchetti), and I've been using it already to generate package sets.

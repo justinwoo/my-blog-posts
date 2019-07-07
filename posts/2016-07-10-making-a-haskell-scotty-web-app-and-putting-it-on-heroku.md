@@ -1,3 +1,5 @@
+# Making a Haskell (Scotty) web app and putting it on Heroku
+
 This won't be a very in-depth tutorial or anything, but should serve to provide an updated reference for how to make a simple Haskell web app using Scotty that connects to Redis and serves out some static assets (in this case, my Elm app).
 
 This project uses [stack](haskellstack.org) and requires little more than `haskell-stack` on homebrew and npm.

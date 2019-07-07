@@ -1,3 +1,5 @@
+# Simple Routing based on parsing type-level strings
+
 Last time, I talked about [Parsing type-level strings to extract types](https://qiita.com/kimagure/items/6729a5d55ab99bcee8ec) using some new features in PureScript 0.12 to be able to deconstruct `Symbol`s. This gives me back functions of `String -> Either _ { | params }` that I can use to parse URLs for parameters. But what if I wanted to do some routing?
 
 This time, I'll write about a simple way to do routing by putting these routes into a row type, giving us back a `Variant` that we can match on.

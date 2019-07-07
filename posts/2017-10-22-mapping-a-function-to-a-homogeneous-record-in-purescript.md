@@ -1,3 +1,5 @@
+# Mapping a function to a homogeneous record in PureScript
+
 If you're reading this blog post, chances are that you've seen my talk ["RowList Fun with PureScript"](https://www.reddit.com/r/purescript/comments/6xs5f2/rowlist_fun_with_purescript_slides_from_small_fp/), whether that was online, YouTube, ClojuTRE/Small FP Conf, HaskellX Hackathon, etc. While you might want to read the slides from that talk if you haven't seen the talk, it won't really be necessary for what I'll go over here.
 
 I'll try to explain all the important details needed for a relatively new PureScript user to do this themselves. When in doubt, see [PureScript by Example](https://leanpub.com/purescript/read), ask on [#purescript in the FP Slack](https://fpchat-invite.herokuapp.com/), and/or complain on Twitter #purescript

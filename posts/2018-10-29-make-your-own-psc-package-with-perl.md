@@ -1,3 +1,5 @@
+# Make your own Psc-Package with Perl
+
 ...and you can even distribute it with Nix!
 
 If you use PureScript, chances are that you've tried using Psc-Package, and you might even have tried my [Spacchetti](https://github.com/justinwoo/spacchetti) package set solution that uses Dhall. But one thing seems missing here... we could be using our Dhall `packages.dhall** directly in our project configuration, if the project configuration were also in Dhall. Since Psc-Package is a tool that allows for anyone to generate things for it to consume, Spacchetti works, but what if we were to just replace Psc-Package? That we can!

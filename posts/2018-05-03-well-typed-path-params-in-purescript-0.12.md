@@ -1,3 +1,5 @@
+# Well-typed path params in PureScript 0.12
+
 Previously, I wrote about using tuples to represent URLs with parameters in my article [Type-level Path Params parsed to Records with PureScript](https://qiita.com/kimagure/items/4f5c6054870f631ff768). While the approach described in this article is fairly interesting, it's overall fairly disappointing to work with when the way to work with this looks like this:
 
 ```hs

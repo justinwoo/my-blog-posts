@@ -1,3 +1,5 @@
+# Automatically de/encoding JSON in Purescript using Generics-Rep
+
 **Update: You may be interested in using Simple-JSON instead: <https://github.com/justinwoo/purescript-simple-json>**
 
 I only recently realized that I still did not write a blog post about this, despite having an Egghead video and having given a small talk about it. With the release of the new version of Foreign-Generics, I figured I might as well write about the normal usage and about the new Enum-style Sum type Generic functions.

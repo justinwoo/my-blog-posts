@@ -1,3 +1,5 @@
+# Type-level Path Params parsed to Records with PureScript
+
 *Edit: I've written a follow-up to this article to write paths from records here: https://qiita.com/kimagure/items/777133d6bbff67e3819d* 
 
 Recently, I looked at some examples of how people handle paths and path parameters commonly in "normal" programming languages. Many of these approaches involved matching on items in an array produced by a glorified string split on `/`, by both guarding on string value matches and by binding segments into variables (of type string) for use. While these seemed okay enough given the various constraints (or lack thereof, ha) of these examples and the languages they were written for, I didn't want much to do with it. I wanted more static guarantees about how this would work:

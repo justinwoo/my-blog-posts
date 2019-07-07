@@ -1,3 +1,5 @@
+# Using Purescript's Row Types for Tracking Validations
+
 One of the most fun and interesting parts of Purescript have to do with its row types, which are typically used for two things:
 
 * Records -- for encoding Javascript-style objects directly

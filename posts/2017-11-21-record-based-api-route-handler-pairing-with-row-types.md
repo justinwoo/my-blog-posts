@@ -1,3 +1,5 @@
+# Record-based API Route-Handler pairing with Row Types
+
 The other day, I was thinking of ways I could prevent a common mistake I make when registering routes for my vidtracker project: not registering a route handler. Even though I share the type definitions used for routes between my frontend and backend, it doesn't help if I forget to actually register a handler for the route.
 
 Luckily, we have the technology to do this with the following:

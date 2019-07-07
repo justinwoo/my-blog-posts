@@ -1,3 +1,5 @@
+# Generic Sums to Variant and back again
+
 *Before we start, I should remind you that I've written a Generics-Rep (Datatype Generics) tutorial in the Simple-JSON docs here: <https://purescript-simple-json.readthedocs.io/en/latest/generics-rep.html>. I've also written a tutorial on how to work with inferred types with constraints here: <https://purescript-simple-json.readthedocs.io/en/latest/inferred-record-types.html>. These should make for useful concrete background reading which make the ideas in this post flow naturally.*
 
 *You can also learn about what Variants are and how polymorphic variants work from the README in the Variant library here: <https://github.com/natefaubion/purescript-variant>*

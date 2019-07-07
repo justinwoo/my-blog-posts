@@ -1,3 +1,5 @@
+# Controlled Flow with PureScript-Bismuth
+
 Recently, I've been trying to think of ways PureScript could be easily integrated into an existing project. Considering that most JS projects are in plain JS but compiled with Babel, I started looking into Flow as a way to provide types for all of my PureScript modules and having minimal tooling troubles when working with typical setups.
 
 To this goal, I put together [Bismuth](https://github.com/justinwoo/purescript-bismuth), a library similar to my [OhYes](https://qiita.com/kimagure/items/4847685d02d4b15a556c) library, but for Flow.

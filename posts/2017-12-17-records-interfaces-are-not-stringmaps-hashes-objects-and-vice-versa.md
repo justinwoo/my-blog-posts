@@ -1,3 +1,5 @@
+# Records/interfaces are not StringMaps/hashes/objects and vice versa
+
 This is an excerpt from https://speakerdeck.com/justinwoo/rowlist-fun-with-purescript-2nd-edition
 
 It's a common question to ask, "why are records any different from hashes?". This seems to stem from people wanting to apply knowledge of something familiar (JS objects) to something unfamiliar (statically typed records), but hopefully it's easy to follow along the two main differences: the difference in the values and their label/type association, and the difference in the existence of a value at a given key.

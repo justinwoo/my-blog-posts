@@ -1,5 +1,7 @@
 # Generating Elm Types for Port-Safe Communication from PureScript
 
+# Generating Elm Types for Port-Safe Communication from PureScript
+
 A while ago, I wrote about how I integrated an Elm app into a PureScript one [here](https://qiita.com/kimagure/items/d12525d42516f95dd541). That approach used Generics-Rep to extract information from the types and write codegen from it, but had some deficiencies that made it not so ideal. Thankfully, RowToList came out soon after I originally wrote the library, and that allowed me to work with type information first-class that I couldn't get access to before -- namely, records.
 
 This post will go more into the implementation part of the library and try to keep it simple enough so that users who would like to use this library can understand more about how things work, and so that those who would like to develop their own similar solutions can take some inspirations. The demo using this library is available [here](https://github.com/justinwoo/purescript-halogen-elm-etch-sketch).

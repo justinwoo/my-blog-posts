@@ -1,3 +1,5 @@
+# Reflecting a record of proxies and keys of row types
+
 The more I use anything related to type information, the more I've found that I don't want to actually write out the proxies that I know I'll need to use, so I usually end up putting these into records.
 
 But the problem I have is that when I put these into records, I really only want to provide the type information, and I don't want to have to always update the value, as it's just tedious. For example:

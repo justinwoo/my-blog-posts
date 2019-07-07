@@ -1,3 +1,5 @@
+# Writing a Youtube audio scraping tool with Purescript
+
 Previously I wrote about this topic [here](http://qiita.com/kimagure/items/5674e3ae9c87262af762), but that was a while ago and before I had contributed back some useful libraries. I recently did a refactor that removed all of the FFI code in the project so that it was only 153 lines (28 lines being imports) of Purescript!
 
 ## Why

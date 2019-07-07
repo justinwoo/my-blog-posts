@@ -1,3 +1,5 @@
+# Pseudo-dynamically typed errors in PureScript
+
 While we have many ways to work with possible errors in PureScript like catching them in transformers or representing them as an effect of their own in some library, I have found that in many cases, I have wanted to work with the laziest solution many times: shove it in `Error`. And while I would not recommend that people who care about correctness when it comes to errors would use this, many could build layers on top of what I will introduce here with a newtype of `Effect` that tracks the "variety of errors" in an application.
 
 ## The Problem

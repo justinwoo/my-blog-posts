@@ -1,3 +1,5 @@
+# Differences of Purescript from Elm
+
 **This article is fairly old, so you might look at my resources guide here: <https://purescript-resources.readthedocs.io/en/latest/>**
 
 *(The resource that I wish I had when starting with Purescript, or when revisiting Elm)*

@@ -1,3 +1,5 @@
+# Consuming Node projects for Nix users
+
 Recently, I wrote a formatting tool for Nix that I wanted to use to format some derivations automatically. And while the project is written in PureScript, there is nothing PureScript about how this project is consumed, as it is structured as a normal Node.js project. This project will try to show you how Node.js projects are structured how you can easily consume the format-nix project in one of two ways.
 
 ## Project structure

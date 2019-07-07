@@ -1,3 +1,5 @@
+# Opting in to better types and guarantees in PureScript
+
 For a while now I've had this [vidtracker](https://github.com/justinwoo/vidtracker) which helps me keep track of shows I'm watching, and acts as a simple playground for ideas I have about writing simple web apps in PureScript.
 
 Specifically, I think that the definition of routes is somewhere where you can get a lot of guarantees, but you opt-in to how strong of guarantees you want. In this post, I'll go into the various stages of [this meme](https://twitter.com/jusrin00/status/943439105144295424) (minus the last joke entry) and what they meant for my project and what kind of bugs that I originally introduced myself that they fixed.

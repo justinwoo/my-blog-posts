@@ -1,3 +1,5 @@
+# and some you shouldn't PureScript libraries I've written that you might consider using
+
 My libraries have a pretty "creative" naming scheme -- libraries that are absolutely usable have fairly boring names, and then all the libraries that are probably not ideal for every day are named after Korean snack foods.
 
 Since every now and again someone actually wants to use my demonic creations, I'll try to keep this post somewhat up to date. And no, renaming these isn't an option because people will wrongly think many of these horrible libraries are meant to be used for everything. And also because Korean snack names are better than most other names these could get.

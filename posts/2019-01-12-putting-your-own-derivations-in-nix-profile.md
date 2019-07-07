@@ -1,3 +1,5 @@
+# Putting your own derivations in Nix Profile
+
 Users of Nix quite often run `nix-env -i [some-package]` and expect the build products to be available in their PATH, via some kind of configuration that Nix does when they source `$HOME/.nix-profile/etc/profile.d/nix.sh` in their shell configuration. But what is actually in their `~/.nix-profile`? And importantly, if a given package either doesn't build correctly from e.g. nixpkgs or build in a suitable manner, how does one get started with their own package? And importantly, what is the actual easiest way to install a set of packages where one can readily override these at will?
 
 ## Where do binaries live in Nix Profile?

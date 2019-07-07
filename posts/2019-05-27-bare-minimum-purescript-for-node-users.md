@@ -1,3 +1,5 @@
+# Minimal PureScript for Node users
+
 Recently, more people who use Node.js, whether it be on their own computers, in some VPS, AWS Lambda, Azure Functions, etc. have been asking about how to get some bare minimum going on PureScript. While there are many people who will readily give their unneeded opinion on Node.js in response to this question, I will attempt to rather give some minimum amount of information that someone would like to have when trying out a small amount of PureScript.
 
 ## Installing PureScript and the Spago build tool

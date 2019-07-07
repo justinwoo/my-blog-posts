@@ -1,3 +1,5 @@
+# Short: Type-level Path Params to write from Records with PureScript
+
 Continuing from [last time](https://qiita.com/kimagure/items/4f5c6054870f631ff768) when I wrote about parsing paths from strings using type-level path information to records, I'll now show how easy it is to write paths from records from the model we had last time.
 
 ## Review

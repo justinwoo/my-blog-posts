@@ -1,3 +1,5 @@
+# Handling JS Unions with Row Types
+
 Normally, when we deal with values that come from the JS world (via some JS library or something), we use the Foreign type and read the value using various well-typed functions with concrete failures, usually in some form of `Foreign -> Either Error WhatIWant`.
 
 And while this works for various things, we also sometimes need to deal with various kinds of values that might be one or many types. While we can try to wrap these in various redundant FFI functions (and we probably should), we can also come up with solutions for working with these directly.

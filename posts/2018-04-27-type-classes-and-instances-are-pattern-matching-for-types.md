@@ -1,3 +1,5 @@
+# Type classes and instances are pattern matching for types
+
 Recently, I had the opportunity to speak at [NY PureScript](https://www.meetup.com/ny-purescript/events/249706177/) at the incredible [10 Hudson Yards](https://en.wikipedia.org/wiki/10_Hudson_Yards) building. At the meetup, there were some questions about how functional dependencies and instance heads work, with some small chat about how there's a parallel between instance heads and case expressions, with fundeps determining which terms are literally matched for and which are not. While it's not quite 1:1, I thought this might be worth writing about, as "type level programming" doesn't need to be "magic" or anything -- it's a lot of the same things being applied just one level up.
 
 ## Example Problem

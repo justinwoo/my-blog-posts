@@ -1,3 +1,5 @@
+# Making a simple node program with Purescript
+
 For whatever reason, I decided at 27:00 Friday that I should make a program that would get audio from videos of a Youtube channel. This article will go over the details on why and how I made this with Purescript (and some FFI).
 
 ## Why

@@ -1,3 +1,5 @@
+# Unions for Partial Properties in PureScript
+
 For a while I've been wondering about how things like charting libraries should be used from PureScript, where often they are very dynamic beasts of many partial properties. Before PureScript 0.11, the most sensible way to handle this was to create a row-typed DSLs that would allow you to write properties at the correct levels, and these steps would be interpreted to build up your chart config.
 
 Previously, I wrote [here](https://qiita.com/kimagure/items/fd05ad13ee8def0fb4ed) about how you could use PureScript-Record in 0.11.x to instead correctly type a record Builder, where the commands then carried in their row information what chart they would be used for. But this also is not so simple to use and does not let us define what properties a chart wants, but only what charts a property wants. Not so glorious still.

@@ -1,3 +1,5 @@
+# Well-typed parameterized SQLite parameters with PureScript
+
 When working with SQLite, the normal "type safe" way to use the library involves using a `String` value and a dictionary of `String` or `Foreign`/"any". This always ends up with the problem that even the most basic check of whether or not all of the query-specified parameters have been supplied is forced to happen in runtime, usually leading to lots of extra tests being written just to test this for every query written.
 
 With PureScript 0.12, we can parse type level strings (`Symbol`) and use information from these to make a row type to require a record to be passed in, so that from a query string `"select * from table where name = $name and code = $code"`, we can get back a function of `Param a => Param b => { "$name" :: a, "$code" :: b } -> Connection -> Aff Result`.

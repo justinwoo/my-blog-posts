@@ -1,3 +1,5 @@
+# More "RowList" fun with Records in Haskell feat. Scotty Route/Handler pairings & HomeRunWannabe
+
 Before, I wrote about how I was using an approximation for RowToList using GHC8 Generics and Generic-Lens [here](https://qiita.com/kimagure/items/6a9764966edd6cef497d). Since then, I've done a few more experimentations and have found it very fun to work with Haskell records.
 
 Hopefully, this can show you that you don't have to scream about not having row types or extensible records if you know some details about what you want to get done. That's right -- I'm fairly sure you can do most of what you want with Haskell records, GHC8 Generics, and some helper type families and libraries like Generic-Lens, and I'm the kind of madman who comes up with [all kinds of strange uses for row types](https://github.com/justinwoo/awesome-rowlist).

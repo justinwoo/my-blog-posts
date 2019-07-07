@@ -1,3 +1,5 @@
+# Short: Simplified Tortellini with Instance Chains
+
 In 2017, I wrote about writing an INI library in PureScript (and Haskell) [here](https://qiita.com/kimagure/items/941c22effff608dda9a7). Since that post, one major feature that impacts this library was released in v0.12.0: Instance Chain groups (see <https://github.com/purescript/purescript/issues/2315>).
 
 ## What was wrong with the original?

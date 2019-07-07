@@ -1,3 +1,5 @@
+# User empowerment of FFI in PureScript
+
 When using PureScript, one of the main features is being able to use the foreign function interface for directly calling into JavaScript to get the results you need. This has many benefits, such as
 
 * Being able to give proper types to a given expression

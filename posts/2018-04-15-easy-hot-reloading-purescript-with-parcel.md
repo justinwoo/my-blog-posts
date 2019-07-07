@@ -1,3 +1,5 @@
+# Easy Hot-Reloading PureScript with Parcel
+
 While some people already have plenty of experience with front-end web tools to choose exactly what they want, many also have asked how to get everything set up to do building and hot-reloading setups with PureScript. This post will go into how you can easily set up a hot-reloading setup in PureScript, especially if you use [PureScript-React-Basic](https://github.com/lumihq/purescript-react-basic).
 
 Tl;dr for experienced people: PureScript compiled output is available in `/output` of the project root as CommonJS modules, under folders of the name of the compiled module.

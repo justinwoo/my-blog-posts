@@ -1,3 +1,5 @@
+# Using types with parameters to eliminate invalid code paths in Typescript
+
 Recently, I've been trying to get some Typescript users to take advantage of the fact that we have "generics" to constrain types and write code to only the valid paths that we have.
 
 ## The problem

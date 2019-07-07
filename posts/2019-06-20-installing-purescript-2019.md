@@ -1,3 +1,5 @@
+# Installing PureScript in 2019
+
 In 2019, we have some various easy ways to install PureScript and its tooling.
 
 As a new user, you will only need to install the PureScript compiler and the build tool Spago.

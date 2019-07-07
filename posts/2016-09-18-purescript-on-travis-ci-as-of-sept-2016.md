@@ -1,3 +1,5 @@
+# Purescript on Travis CI (as of Sept 2016)
+
 # tl;dr
 
 Use the Trusty beta build environment.

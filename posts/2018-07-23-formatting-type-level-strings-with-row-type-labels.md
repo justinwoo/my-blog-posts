@@ -1,3 +1,5 @@
+# Formatting type-level Strings with row type labels
+
 みなさん、ご無沙汰しております〜 It's been a while since I wrote anything here, so this time I'll write about some more `Symbol` formatting using the labels of a row type.
 
 ## What

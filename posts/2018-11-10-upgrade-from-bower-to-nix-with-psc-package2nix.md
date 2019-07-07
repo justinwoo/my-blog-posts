@@ -1,3 +1,5 @@
+# Upgrade from Bower to Nix with Psc-Package2Nix
+
 Recently, our friends at LumiHQ released a major new version of React-Basic with a React-Basic-Starter. This was great, but there were two things I didn't like about this starter repo:
 
 * This uses Bower, which is fairly slow and can make getting working dependencies a real pain in the ass.

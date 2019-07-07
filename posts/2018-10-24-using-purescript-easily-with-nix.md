@@ -1,3 +1,5 @@
+# Using PureScript easily with Nix
+
 ### Warning
 
 This post is actually about the implementation of Easy-PureScript-Nix. A post about consuming PureScript Nix tools to come at a later date. Please check the repo README.

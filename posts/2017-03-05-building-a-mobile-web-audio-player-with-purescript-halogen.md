@@ -1,3 +1,5 @@
+# Building a mobile web audio player with Purescript-Halogen
+
 For a long time now, I've had this problem that I haven't liked any media players on Android for listening to long files, especially podcasts. While many media players come with a 30-second rewind, they don't give me the level of control I want, which is to be able to skip forward 30 seconds and move around in 5-10 second intervals. Well, what can you do, right?
 
 I had in mind to either do this with React Native and Web. Well, considering I only need to pick a single file, control playback, and target my own Android devices (which are all > 4.4), this wasn't that hard of a decision. This also saved me the trouble of trying to get this published.

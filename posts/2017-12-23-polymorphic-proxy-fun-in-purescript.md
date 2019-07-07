@@ -1,3 +1,5 @@
+# Polymorphic Proxy fun in PureScript
+
 If you've seen any of my codegen posts, you'll know that I use `Proxy` in a bunch of places in order to provide the types for instance resolving, so that I can extract the string name I want to use for my generated code.
 
 ## Normal Proxy Usage

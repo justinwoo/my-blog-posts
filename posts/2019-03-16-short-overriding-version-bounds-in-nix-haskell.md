@@ -1,3 +1,5 @@
+# Short: Overriding version bounds in Nix Haskell
+
 Recently, I needed to override some version bounds for building a Haskell project, where I needed a dependency with the most typical Haskell problem ever: The upper bound was too restrictive.
 
 ## Preparing a GHC derivation to use in your build

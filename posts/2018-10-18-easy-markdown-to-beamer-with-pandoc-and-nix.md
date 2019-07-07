@@ -1,3 +1,5 @@
+# Easy Markdown to Beamer with Pandoc and Nix
+
 For the past couple of years, I've been trying to use Google Slides to prepare presentations, copying formatted text from VSCode to get highlighted and formatted code in my slides. However, since preparing slides in Google Slides ends up being mostly work on trying to get the layout to play nice, I've decided to stop using Google Slides and opt for a simpler option: beamer.
 
 However, it's quite difficult to get enough information about how to do this, so I have put together a repository that can be used as a reference: <https://github.com/justinwoo/easy-markdown-beamer-pandoc>

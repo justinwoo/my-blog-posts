@@ -1,3 +1,5 @@
+# Why Easy-PureScript-Nix
+
 This is mostly a rant and should not be read by a large audience.
 
 ---

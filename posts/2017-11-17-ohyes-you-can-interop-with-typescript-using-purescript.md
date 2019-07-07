@@ -1,3 +1,5 @@
+# OhYes you can interop with TypeScript using PureScript
+
 Recently, I updated my [OhYes](https://github.com/justinwoo/ohyes-demo) library to the latest [Variant](https://github.com/natefaubion/purescript-variant), which then let me interop with union types of interfaces with a static discriminant field. In this post, I'll go over my demo and how the library is implemented.
 
 Just a warning up front: this post is largely just code examples.

@@ -1,3 +1,5 @@
+# Rust with Runtime Deps made easy with Nix
+
 Recently, I have written some very critical things about Nix on Twitter, but I'm still able to use it to get things done that I normally otherwise would need to provide many workarounds for. In this article, I will write about how I can easily build a Rust project with runtime dependencies being readily available with Nix, which is typically not such an easy task.
 
 ## The problem

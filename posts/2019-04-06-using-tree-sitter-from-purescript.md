@@ -1,3 +1,5 @@
+# Using Tree-sitter from PureScript
+
 Recently, I started a project to format Nix files, by making use of the [`node-tree-sitter`](https://github.com/tree-sitter/node-tree-sitter) bindings and the [`tree-sitter-nix`](https://github.com/cstrahan/tree-sitter-nix) parser. I used the node bindings for tree-sitter as it was immediately usable without any extra build setup, and since I could use PureScript to write the actual logic that needed to be performed.
 
 ## Tree-sitter in short

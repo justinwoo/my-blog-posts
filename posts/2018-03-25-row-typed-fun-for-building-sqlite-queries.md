@@ -1,3 +1,5 @@
+# Row-typed fun for building SQLite Queries
+
 Recently, I've been wanting to make some fairly naive SQLite queries using information from record types to map what inputs should go where and what type the output should be parsed to. Well, to work with the generic information of a record type, I pull out the RowToList tricks to get to work.
 
 ## Select All
