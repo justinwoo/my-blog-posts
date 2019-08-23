@@ -16,7 +16,7 @@ Please ping me anytime on Twitter [@jusrin00](https://twitter.com/jusrin00) if y
 
 * [Choco-Pie](https://github.com/justinwoo/purescript-choco-pie): a Cycle.js-like library for easy programming with circular events. This is a little questionable to use, but useful enough that I currently use it "in production".
 * [PS-XStream](https://github.com/justinwoo/purescript-xstream): a wrapper for XStream by Andre Staltz. It's useful, but needs some maintenance help.
-* [Milkis](https://github.com/justinwoo/purescript-milkis): a wrapper around node-fetch for easy fetching in node.
+* [Milkis](https://github.com/justinwoo/purescript-milkis): a wrapper around fetch for easy fetching, for both browser and node.
 * [Node-Sqlite3](https://github.com/justinwoo/purescript-node-sqlite3): a wrapper for the sqlite3 library for node.
 * [Node-he](https://github.com/justinwoo/purescript-node-he): a wrapper for the HE library for decoding and encoding HTML elements.
 
