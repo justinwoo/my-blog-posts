@@ -2,6 +2,12 @@
 
 These are my blog posts. You can also find these on <https://qiita.com/kimagure>.
 
+#### 2019 Aug 23
+
+#### Using Puppeteer with Node2Nix
+
+[file](posts/2019-08-23-using-puppeteer-with-node2nix.md)
+
 #### 2019 Jul 02
 
 ##### Write a simple CLI in PureScript
