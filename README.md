@@ -2,9 +2,15 @@
 
 These are my blog posts. You can also find these on <https://qiita.com/kimagure>.
 
+#### 2019 Sep 10
+
+##### Why nix-shorts and expectations
+
+[file](posts/2019-09-10-why-nix-shorts-and-expectations.md)
+
 #### 2019 Aug 23
 
-#### Using Puppeteer with Node2Nix
+##### Using Puppeteer with Node2Nix
 
 [file](posts/2019-08-23-using-puppeteer-with-node2nix.md)
 
