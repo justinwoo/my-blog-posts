@@ -1,6 +1,6 @@
 # My Blog Posts
 
-These are my blog posts. You can also find these on <https://qiita.com/kimagure>.
+These are my blog posts.
 
 #### 2019 Sep 10
 
