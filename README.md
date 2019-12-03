@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2019 Dec 04
+
+##### Updating Nix expressions with Rust
+
+[file](posts/2019-12-04-updating-nix-expressions-with-rust.md)
+
 #### 2019 Sep 10
 
 ##### Why nix-shorts and expectations
