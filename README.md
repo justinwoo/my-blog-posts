@@ -2,6 +2,14 @@
 
 These are my blog posts.
 
+#### 2020 Jan 09
+
+##### A simple Telegram bot in Rust with Actix
+
+[file](posts/2020-01-08-a-simple-telegram-bot-in-rust-with-actix.md)
+
+<https://qiita.com/kimagure/items/830924fd5e8e2950b6e4>
+
 #### 2019 Dec 04
 
 ##### Updating Nix expressions with Rust
