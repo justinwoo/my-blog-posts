@@ -2,6 +2,14 @@
 
 These are my blog posts.
 
+#### 2020 Feb 05
+
+##### A simple web app in Rust with Actix-Web
+
+[file](posts/2020-02-05-a-simple-web-app-in-rust-with-actix-web.md)
+
+<https://qiita.com/kimagure/items/e24d7d6514a6a0dd2b48>
+
 #### 2020 Jan 09
 
 ##### A simple Telegram bot in Rust with Actix
