@@ -164,12 +164,12 @@ let
     repo = "easy-purescript-nix";
 
     # at this git revision:
-    rev = "43b18de";
+    rev = "340e82b";
 
     # this sha can be obtained by using
-    # nix-prefetch-git justinwoo easy-purescript-nix --rev 43b18de
+    # nix-prefetch-git https://github.com/justinwoo/easy-purescript-nix.git --rev 340e82b
     # (without --rev for latest master)
-    sha256 = "0c36pxafmlyq643kvyq61rw8z3h5dbg5gjb6mi7rxb5bsasqwxp8";
+    sha256 = "1q2ciwd3193kig1paidzrgxl60y4rb39bsi97lk7m6ff8mis6z6i";
   });
 in pkgs.stdenv.mkDerivation {
   name = "easy-ps-test";
