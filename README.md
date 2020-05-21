@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2020 May 22
+
+##### Some backported PureScript changes for my own uses
+
+[file](posts/2020-05-22-some-backported-purescript-changes-for-my-own-uses.md)
+
 #### 2020 Feb 05
 
 ##### A simple web app in Rust with Actix-Web
