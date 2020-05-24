@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2020 May 24
+
+##### PureScript package sets using Jsonnet
+
+[file](posts/2020-05-24-purescript-package-sets-using-jsonnet.md)
+
 #### 2020 May 22
 
 ##### Some backported PureScript changes for my own uses
