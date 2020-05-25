@@ -2,6 +2,14 @@
 
 These are my blog posts.
 
+#### 2020 May 25
+
+##### Nix on GitHub Actions in 2020
+
+[file](posts/2020-05-25-nix-on-github-actions-in-2020.md)
+
+<https://qiita.com/kimagure/items/7693fc1b3f6c45dd0150>
+
 #### 2020 May 24
 
 ##### PureScript package sets using Jsonnet
