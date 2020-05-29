@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2020 May 30
+
+##### My PureScript GitHub CI Setup in 2020
+
+[file](posts/2020-05-30-my-purescript-github-ci-setup-in-2020.md)
+
 #### 2020 May 25
 
 ##### Nix on GitHub Actions in 2020
