@@ -2,6 +2,14 @@
 
 These are my blog posts.
 
+#### 2020 May 31
+
+##### Working with PureScript package sets with just Nix
+
+[file](posts/2020-05-31-working-with-purescript-package-sets-with-just-nix.md)
+
+<https://qiita.com/kimagure/items/25ca3ddcc8e0b636884e>
+
 #### 2020 May 30
 
 ##### My PureScript GitHub CI Setup in 2020
