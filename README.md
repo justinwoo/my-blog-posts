@@ -4,6 +4,12 @@ These are my blog posts.
 
 Do you find any of my posts useful? Would you like to get more help on them? Please consider supporting me on GitHub Sponsors: <https://github.com/sponsors/justinwoo>
 
+#### 2020 Jun 27
+
+##### PureScript on Nix without dependency codegen
+
+[file](posts/2020-06-27-purescript-on-nix-without-dependency-codegen.md)
+
 #### 2020 May 31
 
 ##### Working with PureScript package sets with just Nix
