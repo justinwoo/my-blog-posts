@@ -170,7 +170,7 @@ let
     # nix-prefetch-git https://github.com/justinwoo/easy-purescript-nix.git --rev 340e82b
     # (without --rev for latest master)
     sha256 = "1q2ciwd3193kig1paidzrgxl60y4rb39bsi97lk7m6ff8mis6z6i";
-  });
+  }) { inherit pkgs; };
 in pkgs.stdenv.mkDerivation {
   name = "easy-ps-test";
   src = ./.;
