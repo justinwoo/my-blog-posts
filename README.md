@@ -4,6 +4,12 @@ These are my blog posts.
 
 Do you find any of my posts useful? Would you like to get more help on them? Please consider supporting me on GitHub Sponsors: <https://github.com/sponsors/justinwoo>
 
+#### 2020 Sep 09
+
+##### Multi-step building PureScript projects with Nix
+
+[file](posts/2020-09-08-multi-step-building-purescript-projects-with-nix.md)
+
 #### 2020 Jun 28
 
 ##### Installing PureScript in 2020
