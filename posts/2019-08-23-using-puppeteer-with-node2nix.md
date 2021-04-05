@@ -73,7 +73,7 @@ Then go look for the `src` attribute defined in the `args` let-binding, and repl
     packageName = "puppeteer-node2nix";
     version = "1.0.0";
 -   src = ./.;
-+   src = pkgs.nix-gitignore.gitignoreSource [ ".git" ] ./.;
++   src = gitignoreSource [ ".git" ] ./.;
     dependencies = [
 ```
 
