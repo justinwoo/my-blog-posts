@@ -4,6 +4,12 @@ These are my blog posts.
 
 Do you find any of my posts useful? Would you like to get more help on them? Please consider supporting me on GitHub Sponsors: <https://github.com/sponsors/justinwoo>
 
+#### 2021 Jul 04
+
+##### Nix derivations for Python programs with Poetry2Nix
+
+[file](posts/2021-07-04-nix-derivations-for-python-programs-with-poetry2nix.md)
+
 #### 2020 Sep 09
 
 ##### Multi-step building PureScript projects with Nix
