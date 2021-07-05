@@ -4,6 +4,12 @@ These are my blog posts.
 
 Do you find any of my posts useful? Would you like to get more help on them? Please consider supporting me on GitHub Sponsors: <https://github.com/sponsors/justinwoo>
 
+#### 2021 Jul 06
+
+##### Thoughts on building st via Nix
+
+[file](posts/2017-07-06-thoughts-on-building-st-via-nix.md)
+
 #### 2021 Jul 04
 
 ##### Nix derivations for Python programs with Poetry2Nix
