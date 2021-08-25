@@ -8,7 +8,7 @@ Do you find any of my posts useful? Would you like to get more help on them? Ple
 
 ##### Thoughts on building st via Nix
 
-[file](posts/2017-07-06-thoughts-on-building-st-via-nix.md)
+[file](posts/2021-07-06-thoughts-on-building-st-via-nix.md)
 
 #### 2021 Jul 04
 
