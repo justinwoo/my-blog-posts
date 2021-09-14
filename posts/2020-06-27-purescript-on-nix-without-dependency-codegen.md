@@ -160,8 +160,6 @@ Currently, I have some PRs that need to be merged in order to make working in th
 
 Hopefully this has given you some ideas on how you might want to work with your own PureScript projects using Nix and without dependency codegen in your project.
 
-I'm also now on GitHub Sponsors, so please consider supporting me there <https://github.com/sponsors/justinwoo>. If you're a corporate user and would like to have me directly support you, please talk to your manager about becoming a Corporate sponsor on GitHub sponsors. Thanks!
-
 ## Links
 
 * Psc-Package-Nix: <https://github.com/justinwoo/psc-package-nix>
