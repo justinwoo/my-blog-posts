@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2021 Dec 14
+
+##### Problems with updating PureScript libraries
+
+[file](posts/2021-12-14-problems-with-updating-purescript-libraries.md)
+
 #### 2021 Jul 06
 
 ##### Thoughts on building st via Nix
