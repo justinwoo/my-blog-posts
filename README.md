@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2021 Dec 16
+
+##### Re: Problems with updating PureScript libraries
+
+[file](posts/2021-12-15-re-problems-with-updating-purescript-libraries.md)
+
 #### 2021 Dec 14
 
 ##### Problems with updating PureScript libraries
