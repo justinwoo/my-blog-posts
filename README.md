@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2022 Jun 05
+
+##### GCC Version Hell with Rust Binaries
+
+[file](posts/2022-06-05-gcc-version-hell-with-rust-binaries.md)
+
 #### 2021 Dec 16
 
 ##### Re: Problems with updating PureScript libraries
