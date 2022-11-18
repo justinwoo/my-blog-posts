@@ -106,7 +106,7 @@ $ patchelf --print-interpreter zephyr
 
 ## Patching the binary
 
-So now all we really need to do is wire this up so that the interpreter is replaced and the PITHY is set to contain the libraries we have determined are needed to run the damned thing.
+So now all we really need to do is wire this up so that the interpreter is replaced and the RPATH is set to contain the libraries we have determined are needed to run the damned thing.
 
 ```nix
 let
