@@ -224,7 +224,7 @@ These are my blog posts.
 
 #### 2019 Jan 13
 
-##### Consuming Electrona pps in Nix by patching binaries
+##### Consuming Electron apps in Nix by patching binaries
 
 [file](./posts/2019-01-13-consuming-electron-apps-in-nix-by-patching-binaries.md)
 
