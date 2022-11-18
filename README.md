@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2022 Nov 18
+
+##### Patching binaries in Nix is easy and fun
+
+[file](posts/2022-11-18-patching-binaries-in-nix-is-easy-and-fun.md)
+
 #### 2022 Jun 05
 
 ##### GCC Version Hell with Rust Binaries
