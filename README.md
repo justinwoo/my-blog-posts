@@ -2,6 +2,23 @@
 
 These are my blog posts.
 
+#### 2023 Jan 31
+
+##### Properly recreating my i3 scratch window workflow in Mac OS
+
+[file](posts/2023-01-31-properly-recreating-my-i3-scratch-window-workflow-in-mac-os.md)
+
+#### 2023 Jan 29
+
+##### Cheaper but buggier i3 scratch window workflow emulation in Mac OS
+
+[file](posts/2023-01-29-cheaper-but-buggier-i3-scratch-window-workflow-emulation-in-mac-os.md)
+
+#### 2023 Jan 28
+
+##### Expensively recreating my i3 scratch window workflow in Mac OS
+[file](posts/2023-01-28-expensively-recreating-my-i3-scratch-window-workflow-in-mac-os.md)
+
 #### 2022 Nov 18
 
 ##### Patching binaries in Nix is easy and fun
