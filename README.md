@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2023 Aug 17
+
+##### Home as Ctrl+A with Karabiner on Mac OS
+
+[file](posts/2023-08-17-home-as-ctrl-a-with-karabiner-on-mac-os.md)
+
 #### 2023 Jan 31
 
 ##### Properly recreating my i3 scratch window workflow in Mac OS
