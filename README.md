@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2024 Mar 17
+
+##### Project-based Nix env with direnv
+
+[file](posts/2024-03-17-project-based-nix-env-with-direnv.md)
+
 #### 2023 Aug 17
 
 ##### Home as Ctrl+A with Karabiner on Mac OS
