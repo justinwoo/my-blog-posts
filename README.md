@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2024 Sep 22
+
+##### Building Nix Docker images on Mac OS with Multipass
+
+[file](posts/2024-09-22-building-nix-docker-images-on-mac-os-with-multipass.md)
+
 #### 2024 Mar 17
 
 ##### Project-based Nix env with direnv
@@ -29,6 +35,7 @@ These are my blog posts.
 #### 2023 Jan 28
 
 ##### Expensively recreating my i3 scratch window workflow in Mac OS
+
 [file](posts/2023-01-28-expensively-recreating-my-i3-scratch-window-workflow-in-mac-os.md)
 
 #### 2022 Nov 18
