@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2024 Oct 09
+
+##### Some terms to know about Japanese whetstones
+
+[file](posts/2024-10-09-some-terms-to-know-about-japanese-whetstones.md)
+
 #### 2024 Sep 22
 
 ##### Building Nix Docker images on Mac OS with Multipass
