@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2025 Jan 04
+
+##### Some common problems with Mac OS Ghostty
+
+[file](posts/2025-01-04-some-common-problems-with-macos-ghostty.md)
+
 #### 2024 Oct 09
 
 ##### Some terms to know about Japanese whetstones
