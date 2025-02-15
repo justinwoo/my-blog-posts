@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2025 Feb 15
+
+##### Binding my own keys to change input sources in Mac OS
+
+[file](posts/2025-02-15-binding-my-own-keys-to-change-input-sources-mac-os.md)
+
 #### 2025 Jan 04
 
 ##### Some common problems with Mac OS Ghostty
