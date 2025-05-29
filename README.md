@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2025 May 30
+
+##### Being forced to stop using Nix-Env
+
+[file](posts/2025-05-30-being-forced-to-stop-using-nix-env.md)
+
 #### 2025 Feb 15
 
 ##### Binding my own keys to change input sources in Mac OS
