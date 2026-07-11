@@ -2,6 +2,12 @@
 
 These are my blog posts.
 
+#### 2026 Jul 12
+
+##### I want to get to the Characterization Part
+
+[file](posts/2026-07-12-i-want-to-get-to-the-characterization-part.md)
+
 #### 2025 May 30
 
 ##### Being forced to stop using Nix-Env
